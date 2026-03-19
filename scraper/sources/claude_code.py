@@ -17,7 +17,7 @@ def fetch():
     root = ET.fromstring(resp.text)
     items = []
 
-    for entry in root.findall(f"{ATOM_NS}entry")[:15]:
+    for entry in root.findall(f"{ATOM_NS}entry")[:2]:
         title = _text(entry, f"{ATOM_NS}title")
         updated = _text(entry, f"{ATOM_NS}updated")
         link_el = entry.find(f"{ATOM_NS}link")
