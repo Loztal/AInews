@@ -1,0 +1,164 @@
+{
+  "generated": "2026-03-19T08:15:15.674548+00:00",
+  "briefing_summary": "Today's briefing: 15 blog posts, 10 Claude Code releases. Latest: v2.1.79.",
+  "categories": {
+    "anthropic_blog": [
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-partner-network",
+        "summary": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      {
+        "title": "Introducing The Anthropic Institute",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+        "date": "2026-03-10T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
+      },
+      {
+        "title": "Partnering with Mozilla to improve Firefox’s security",
+        "date": "2026-03-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+        "summary": "Partnering with Mozilla to improve Firefox’s security"
+      },
+      {
+        "title": "Where things stand with the Department of War",
+        "date": "2026-03-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "summary": "Where things stand with the Department of War"
+      },
+      {
+        "title": "Statement on the comments from Secretary of War Pete Hegseth",
+        "date": "2026-02-27T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+        "summary": "Statement on the comments from Secretary of War Pete Hegseth"
+      },
+      {
+        "title": "Statement from Dario Amodei on our discussions with the Department of War",
+        "date": "2026-02-26T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-department-of-war",
+        "summary": "Statement from Dario Amodei on our discussions with the Department of War"
+      },
+      {
+        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+        "date": "2026-02-25T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/acquires-vercept",
+        "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities"
+      },
+      {
+        "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+        "date": "2026-02-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+        "summary": "Anthropic’s Responsible Scaling Policy: Version 3.0"
+      },
+      {
+        "title": "Detecting and preventing distillation attacks",
+        "date": "2026-02-23T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "summary": "Detecting and preventing distillation attacks"
+      },
+      {
+        "title": "Introducing Claude Sonnet 4.6",
+        "date": "2026-02-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "summary": "Introducing Claude Sonnet 4.6"
+      },
+      {
+        "title": "Introducing Claude Opus 4.6",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "summary": "Introducing Claude Opus 4.6"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
+      },
+      {
+        "title": "Claude on Mars",
+        "date": "2026-01-30T00:00:00+00:00",
+        "url": "https://www.anthropic.com/mars",
+        "summary": "Claude on Mars"
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.79",
+        "date": "2026-03-18T22:29:36Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.79",
+        "summary": "Added; console; Added \"Show turn duration\" toggle to the; Fixed"
+      },
+      {
+        "title": "v2.1.78",
+        "date": "2026-03-17T23:42:55Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.78",
+        "summary": "Added; Added; Added"
+      },
+      {
+        "title": "v2.1.77",
+        "date": "2026-03-17T00:28:12Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.77",
+        "summary": "Added"
+      },
+      {
+        "title": "v2.1.76",
+        "date": "2026-03-14T01:23:58Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76",
+        "summary": "Added MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL); Added new; Added; n"
+      },
+      {
+        "title": "v2.1.75",
+        "date": "2026-03-13T17:09:08Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.75",
+        "summary": "Merge pull request; #33472; from anthropics/kashyap/code-review-batch-o…"
+      },
+      {
+        "title": "v2.1.74",
+        "date": "2026-03-12T00:34:23Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.74",
+        "summary": "Added actionable suggestions to; Added; Fixed memory leak where streaming API response buffers were not released when the generator was terminated early, causing unbounded RSS growth on the Node.js/npm code path; Fixed managed policy"
+      },
+      {
+        "title": "v2.1.73",
+        "date": "2026-03-11T18:26:43Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.73",
+        "summary": "Added; Added actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies,; Fixed freezes and 100% CPU loops triggered by permission prompts for complex bash commands; Fixed a deadlock that could freeze Claude Code when many skill files changed at"
+      },
+      {
+        "title": "v2.1.72",
+        "date": "2026-03-10T00:43:03Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.72",
+        "summary": "Changed tool search to bypass the third-party proxy gate when the environment variable is set (replaces; Added; Added optional description argument to"
+      },
+      {
+        "title": "v2.1.71",
+        "date": "2026-03-07T00:12:46Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.71",
+        "summary": "Added; Added cron scheduling tools for recurring prompts within a session; Added"
+      },
+      {
+        "title": "v2.1.70",
+        "date": "2026-03-06T01:20:02Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.70",
+        "summary": "Fixed API 400 errors when using; Fixed; Fixed empty model responses immediately after"
+      }
+    ],
+    "ai_models": [],
+    "desktop": [],
+    "office_plugins": [],
+    "chrome_extension": []
+  }
+}

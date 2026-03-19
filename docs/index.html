@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Claude Daily">
+    <meta name="theme-color" content="#6B4CE6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1a1a2e" media="(prefers-color-scheme: dark)">
+    <title>Claude Daily Briefing</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Briefing Modal (Session Prompt) -->
+    <div id="briefing-modal" class="modal" role="dialog" aria-label="Daily Briefing">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-icon">C</span>
+                <h1>Daily Claude Briefing</h1>
+                <time id="modal-date" class="modal-date"></time>
+            </div>
+            <div id="modal-summary" class="modal-summary">
+                <p>Loading briefing...</p>
+            </div>
+            <button id="modal-dismiss" class="btn-primary" aria-label="View Dashboard">
+                View Dashboard
+            </button>
+        </div>
+    </div>
+
+    <!-- Dashboard -->
+    <main id="dashboard" class="dashboard hidden">
+        <header class="dash-header">
+            <div class="header-left">
+                <span class="logo">C</span>
+                <h1>Claude Daily</h1>
+            </div>
+            <time id="last-updated" class="last-updated"></time>
+        </header>
+
+        <!-- Quick Summary Bar -->
+        <div id="summary-bar" class="summary-bar"></div>
+
+        <!-- Category Sections -->
+        <div id="categories" class="categories">
+            <!-- Rendered by JS -->
+        </div>
+
+        <footer class="dash-footer">
+            <p>Updated daily at 06:00 UTC</p>
+        </footer>
+    </main>
+
+    <script src="js/briefing.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
