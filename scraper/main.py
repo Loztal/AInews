@@ -20,10 +20,10 @@ def run():
 
     # Fetch from all sources
     sources = [
+        ("Web Sources", web_sources.fetch),
         ("Anthropic Blog", anthropic_blog.fetch),
         ("Claude Code", claude_code.fetch),
         ("Release Notes", release_notes.fetch),
-        ("Web Sources", web_sources.fetch),
     ]
 
     for name, fetcher in sources:
