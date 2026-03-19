@@ -12,7 +12,8 @@ ANTHROPIC_NEWS_RSS = "https://raw.githubusercontent.com/taobojlen/anthropic-rss-
 MODEL_KEYWORDS = ["opus", "sonnet", "haiku", "claude 4", "claude 3", "model update",
                    "benchmark", "context window", "system prompt", "extended thinking"]
 CHROME_KEYWORDS = ["chrome", "browser", "extension", "web store"]
-OFFICE_KEYWORDS = ["excel", "powerpoint", "office", "m365", "copilot", "add-in", "foundry", "microsoft"]
+OFFICE_KEYWORDS = ["excel", "powerpoint", "office 365", "office plugin", "office add-in",
+                   "m365", "copilot", "add-in", "foundry", "microsoft 365"]
 
 
 def fetch():

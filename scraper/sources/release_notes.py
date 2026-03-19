@@ -12,7 +12,8 @@ CATEGORY_KEYWORDS = {
     "ai_models": ["model", "opus", "sonnet", "haiku", "context window", "token", "1m"],
     "desktop": ["desktop", "cowork", "dock", "memory", "inline", "visualization"],
     "chrome_extension": ["chrome", "browser", "extension", "tab", "web store"],
-    "office_plugins": ["excel", "powerpoint", "office", "m365", "copilot", "add-in", "foundry"],
+    "office_plugins": ["excel", "powerpoint", "office 365", "office plugin", "office add-in",
+                       "m365", "copilot", "add-in", "foundry", "microsoft 365"],
 }
 
 
