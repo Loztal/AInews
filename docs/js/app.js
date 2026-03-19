@@ -43,6 +43,10 @@
         if (data.generated) {
             var date = new Date(data.generated);
             document.getElementById('last-updated').textContent = relativeTime(date);
+            var footer = document.getElementById('footer-updated');
+            if (footer) {
+                footer.textContent = 'Updated ' + formatISO(date);
+            }
         }
 
         // Summary bar chips
@@ -124,6 +128,15 @@
             (item.summary ? '<div class="card-summary">' + escapeHtml(item.summary) + '</div>' : '');
 
         return card;
+    }
+
+    function formatISO(date) {
+        var y = date.getUTCFullYear();
+        var m = String(date.getUTCMonth() + 1).padStart(2, '0');
+        var d = String(date.getUTCDate()).padStart(2, '0');
+        var h = String(date.getUTCHours()).padStart(2, '0');
+        var min = String(date.getUTCMinutes()).padStart(2, '0');
+        return y + '-' + m + '-' + d + ' ' + h + ':' + min;
     }
 
     function relativeTime(date) {
