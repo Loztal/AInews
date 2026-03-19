@@ -1,4 +1,4 @@
-"""Fetch Chrome extension and Office plugin news from Anthropic news page."""
+"""Fetch AI model, Chrome extension, and Office plugin news from Anthropic news page."""
 
 import requests
 import xml.etree.ElementTree as ET
@@ -9,12 +9,14 @@ from email.utils import parsedate_to_datetime
 
 ANTHROPIC_NEWS_RSS = "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml"
 
+MODEL_KEYWORDS = ["opus", "sonnet", "haiku", "claude 4", "claude 3", "model update",
+                   "benchmark", "context window", "system prompt", "extended thinking"]
 CHROME_KEYWORDS = ["chrome", "browser", "extension", "web store"]
 OFFICE_KEYWORDS = ["excel", "powerpoint", "office", "m365", "copilot", "add-in", "foundry", "microsoft"]
 
 
 def fetch():
-    """Fetch news items filtered for Chrome and Office categories."""
+    """Fetch news items filtered for AI models, Chrome, and Office categories."""
     resp = requests.get(ANTHROPIC_NEWS_RSS, timeout=30)
     resp.raise_for_status()
 
@@ -38,7 +40,15 @@ def fetch():
 
         clean_summary = _clean(description)
 
-        if any(kw in combined for kw in CHROME_KEYWORDS):
+        if any(kw in combined for kw in MODEL_KEYWORDS):
+            items.append({
+                "title": title,
+                "date": date_iso,
+                "url": link,
+                "summary": clean_summary,
+                "source": "ai_models",
+            })
+        elif any(kw in combined for kw in CHROME_KEYWORDS):
             items.append({
                 "title": title,
                 "date": date_iso,
