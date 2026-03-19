@@ -104,16 +104,22 @@
     }
 
     function createCard(item) {
-        var card = document.createElement('div');
-        card.className = 'card';
+        var card;
+        if (item.url) {
+            card = document.createElement('a');
+            card.href = item.url;
+            card.target = '_blank';
+            card.rel = 'noopener';
+            card.className = 'card card-link';
+        } else {
+            card = document.createElement('div');
+            card.className = 'card';
+        }
 
         var dateStr = item.date ? relativeTime(new Date(item.date)) : '';
-        var titleHtml = item.url
-            ? '<a href="' + escapeAttr(item.url) + '" target="_blank" rel="noopener">' + escapeHtml(item.title) + '</a>'
-            : escapeHtml(item.title);
 
         card.innerHTML =
-            '<div class="card-title">' + titleHtml + '</div>' +
+            '<div class="card-title">' + escapeHtml(item.title) + '</div>' +
             '<div class="card-meta"><span class="card-date">' + escapeHtml(dateStr) + '</span></div>' +
             (item.summary ? '<div class="card-summary">' + escapeHtml(item.summary) + '</div>' : '');
 
