@@ -1,6 +1,6 @@
 {
   "generated": "2026-03-19T12:36:01.893029+00:00",
-  "briefing_summary": "Today's briefing: 12 blog posts, 6 model updates, 10 Claude Code releases, 14 desktop updates, 6 Office plugin updates. Latest: v2.1.79.",
+  "briefing_summary": "Today's briefing: 12 blog posts, 6 model updates, 1 Claude Code release, 14 desktop updates, 6 Office plugin updates. Latest: v2.1.79.",
   "categories": {
     "ai_models": [
       {
@@ -158,60 +158,6 @@
         "date": "2026-03-18T22:29:36Z",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.79",
         "summary": "Added; console; Added \"Show turn duration\" toggle to the; Fixed"
-      },
-      {
-        "title": "v2.1.78",
-        "date": "2026-03-17T23:42:55Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.78",
-        "summary": "Added; Added; Added"
-      },
-      {
-        "title": "v2.1.77",
-        "date": "2026-03-17T00:28:12Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.77",
-        "summary": "Added"
-      },
-      {
-        "title": "v2.1.76",
-        "date": "2026-03-14T01:23:58Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76",
-        "summary": "Added MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL); Added new; Added; n"
-      },
-      {
-        "title": "v2.1.75",
-        "date": "2026-03-13T17:09:08Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.75",
-        "summary": "Merge pull request; #33472; from anthropics/kashyap/code-review-batch-o…"
-      },
-      {
-        "title": "v2.1.74",
-        "date": "2026-03-12T00:34:23Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.74",
-        "summary": "Added actionable suggestions to; Added; Fixed memory leak where streaming API response buffers were not released when the generator was terminated early, causing unbounded RSS growth on the Node.js/npm code path; Fixed managed policy"
-      },
-      {
-        "title": "v2.1.73",
-        "date": "2026-03-11T18:26:43Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.73",
-        "summary": "Added; Added actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies,; Fixed freezes and 100% CPU loops triggered by permission prompts for complex bash commands; Fixed a deadlock that could freeze Claude Code when many skill files changed at"
-      },
-      {
-        "title": "v2.1.72",
-        "date": "2026-03-10T00:43:03Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.72",
-        "summary": "Changed tool search to bypass the third-party proxy gate when the environment variable is set (replaces; Added; Added optional description argument to"
-      },
-      {
-        "title": "v2.1.71",
-        "date": "2026-03-07T00:12:46Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.71",
-        "summary": "Added; Added cron scheduling tools for recurring prompts within a session; Added"
-      },
-      {
-        "title": "v2.1.70",
-        "date": "2026-03-06T01:20:02Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.70",
-        "summary": "Fixed API 400 errors when using; Fixed; Fixed empty model responses immediately after"
       }
     ],
     "desktop": [

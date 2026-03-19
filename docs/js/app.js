@@ -16,7 +16,7 @@
     };
 
     var CATEGORY_ORDER = [
-        'anthropic_blog', 'ai_models', 'claude_code',
+        'claude_code', 'anthropic_blog', 'ai_models',
         'desktop', 'office_plugins', 'chrome_extension'
     ];
 
