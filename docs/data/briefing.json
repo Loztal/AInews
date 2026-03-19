@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-19T10:46:44.886032+00:00",
-  "briefing_summary": "Today's briefing: 12 blog posts, 2 model updates, 10 Claude Code releases, 1 Office plugin updates. Latest: v2.1.79.",
+  "generated": "2026-03-19T12:36:37.442370+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 2 model updates, 10 Claude Code releases. Latest: v2.1.79.",
   "categories": {
     "ai_models": [
       {
@@ -14,14 +14,6 @@
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://www.anthropic.com/news/claude-opus-4-6",
         "summary": "Introducing Claude Opus 4.6"
-      }
-    ],
-    "office_plugins": [
-      {
-        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
-        "date": "2026-03-10T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
       }
     ],
     "anthropic_blog": [
@@ -42,6 +34,12 @@
         "date": "2026-03-11T00:00:00+00:00",
         "url": "https://www.anthropic.com/news/the-anthropic-institute",
         "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+        "date": "2026-03-10T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
       },
       {
         "title": "Partnering with Mozilla to improve Firefox’s security",
@@ -161,6 +159,7 @@
       }
     ],
     "desktop": [],
+    "office_plugins": [],
     "chrome_extension": []
   }
 }
