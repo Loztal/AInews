@@ -1,4 +1,4 @@
-var CACHE_VERSION = 'claude-daily-v1';
+var CACHE_VERSION = 'claude-daily-v2';
 
 var APP_SHELL = [
     './',
@@ -55,10 +55,16 @@ self.addEventListener('fetch', function (event) {
         return;
     }
 
-    // Cache-first for everything else
+    // Stale-while-revalidate for app shell
     event.respondWith(
-        caches.match(event.request).then(function (cached) {
-            return cached || fetch(event.request);
+        caches.open(CACHE_VERSION).then(function (cache) {
+            return cache.match(event.request).then(function (cached) {
+                var fetched = fetch(event.request).then(function (response) {
+                    cache.put(event.request, response.clone());
+                    return response;
+                });
+                return cached || fetched;
+            });
         })
     );
 });
