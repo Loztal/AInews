@@ -316,6 +316,10 @@ a.card-link {
     font-size: 12px;
 }
 
+.tz-dim {
+    opacity: 0.5;
+}
+
 /* ===== Category Colors ===== */
 .cat-anthropic_blog .category-dot { background: #6B4CE6; }
 .cat-ai_models .category-dot { background: #ec4899; }

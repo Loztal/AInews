@@ -45,7 +45,7 @@
             document.getElementById('last-updated').textContent = relativeTime(date);
             var footer = document.getElementById('footer-updated');
             if (footer) {
-                footer.textContent = 'Updated ' + formatISO(date);
+                footer.innerHTML = 'Updated ' + formatISO(date);
             }
         }
 
@@ -131,12 +131,30 @@
     }
 
     function formatISO(date) {
-        var y = date.getUTCFullYear();
-        var m = String(date.getUTCMonth() + 1).padStart(2, '0');
-        var d = String(date.getUTCDate()).padStart(2, '0');
-        var h = String(date.getUTCHours()).padStart(2, '0');
-        var min = String(date.getUTCMinutes()).padStart(2, '0');
-        return y + '-' + m + '-' + d + ' ' + h + ':' + min;
+        // Determine CET (UTC+1) vs CEST (UTC+2) using Europe/Berlin rules
+        var cet = new Date(date.getTime() + 3600000); // UTC+1 base
+        var isCEST = isSummerTime(date);
+        if (isCEST) cet = new Date(date.getTime() + 7200000); // UTC+2
+
+        var y = cet.getUTCFullYear();
+        var m = String(cet.getUTCMonth() + 1).padStart(2, '0');
+        var d = String(cet.getUTCDate()).padStart(2, '0');
+        var h = String(cet.getUTCHours()).padStart(2, '0');
+        var min = String(cet.getUTCMinutes()).padStart(2, '0');
+        var tz = isCEST ? '<span class="tz-dim">CEST</span>' : 'CET';
+        return y + '-' + m + '-' + d + ' ' + h + ':' + min + ' ' + tz;
+    }
+
+    function isSummerTime(date) {
+        // CEST: last Sunday of March 01:00 UTC to last Sunday of October 01:00 UTC
+        var year = date.getUTCFullYear();
+        var marchLast = new Date(Date.UTC(year, 2, 31));
+        while (marchLast.getUTCDay() !== 0) marchLast.setUTCDate(marchLast.getUTCDate() - 1);
+        marchLast.setUTCHours(1, 0, 0, 0);
+        var octLast = new Date(Date.UTC(year, 9, 31));
+        while (octLast.getUTCDay() !== 0) octLast.setUTCDate(octLast.getUTCDate() - 1);
+        octLast.setUTCHours(1, 0, 0, 0);
+        return date >= marchLast && date < octLast;
     }
 
     function relativeTime(date) {
