@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-19T21:24:39.318907+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 9 model updates, 1 Claude Code releases, 14 desktop updates, 5 Office plugin updates. Latest: v2.1.79.",
+  "generated": "2026-03-19T22:16:35.082025+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 9 model updates, 1 Claude Code releases, 14 desktop updates, 5 Office plugin updates. Latest: v2.1.80.",
   "categories": {
     "ai_models": [
       {
@@ -185,10 +185,10 @@
     ],
     "claude_code": [
       {
-        "title": "v2.1.79",
-        "date": "2026-03-18T22:29:36Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.79",
-        "summary": "Added; console; Added \"Show turn duration\" toggle to the; Fixed"
+        "title": "v2.1.80",
+        "date": "2026-03-19T22:08:48Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
+        "summary": "Added; Added"
       }
     ],
     "desktop": [
