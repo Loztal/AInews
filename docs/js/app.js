@@ -96,7 +96,14 @@
             if (items.length === 0) {
                 itemsDiv.innerHTML = '<div class="empty-state">No new updates</div>';
             } else {
-                items.forEach(function (item) {
+                // Split model spec items from regular news items
+                var specItems = items.filter(function (i) { return i.tiers; });
+                var newsItems = items.filter(function (i) { return !i.tiers; });
+
+                specItems.forEach(function (item) {
+                    itemsDiv.appendChild(createModelCard(item));
+                });
+                newsItems.forEach(function (item) {
                     itemsDiv.appendChild(createCard(item));
                 });
             }
@@ -126,6 +133,37 @@
             '<div class="card-title">' + escapeHtml(item.title) + '</div>' +
             '<div class="card-meta"><span class="card-date">' + escapeHtml(dateStr) + '</span></div>' +
             (item.summary ? '<div class="card-summary">' + escapeHtml(item.summary) + '</div>' : '');
+
+        return card;
+    }
+
+    function createModelCard(item) {
+        var card = document.createElement('div');
+        card.className = 'card model-card';
+
+        var tiersHtml = '';
+        if (item.tiers) {
+            var tierOrder = ['Free', 'Pro', 'Max 5x', 'Max 20x', 'Team Std', 'Team Prem', 'Enterprise', 'API'];
+            tierOrder.forEach(function (tier) {
+                var val = item.tiers[tier] || '-';
+                var cls = val === '-' ? 'tier-badge tier-unavailable' : 'tier-badge tier-available';
+                tiersHtml += '<div class="' + cls + '">' +
+                    '<span class="tier-name">' + escapeHtml(tier) + '</span>' +
+                    '<span class="tier-value">' + escapeHtml(val) + '</span>' +
+                    '</div>';
+            });
+        }
+
+        card.innerHTML =
+            '<div class="model-header">' +
+                '<div class="card-title">' + escapeHtml(item.title) + '</div>' +
+                '<div class="model-context">' + escapeHtml(item.context_window || '') + '</div>' +
+            '</div>' +
+            '<div class="model-info">' +
+                '<span>Max output: ' + escapeHtml(item.max_output || '') + '</span>' +
+                '<span>API: ' + escapeHtml(item.pricing_input || '') + ' in / ' + escapeHtml(item.pricing_output || '') + ' out</span>' +
+            '</div>' +
+            '<div class="model-tiers">' + tiersHtml + '</div>';
 
         return card;
     }

@@ -300,6 +300,88 @@ a.card-link {
     overflow: hidden;
 }
 
+/* ===== Model Spec Cards ===== */
+.model-card {
+    padding: 16px;
+}
+
+.model-card:active { transform: none; }
+
+.model-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.model-context {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+.model-info {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.model-tiers {
+    display: flex;
+    gap: 4px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.model-tiers::-webkit-scrollbar { display: none; }
+
+.tier-badge {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 10px;
+    min-width: 48px;
+    text-align: center;
+}
+
+.tier-available {
+    background: #10b98120;
+    color: #10b981;
+}
+
+.tier-unavailable {
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    opacity: 0.6;
+}
+
+.tier-name {
+    font-weight: 600;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 1px;
+}
+
+.tier-value {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .tier-available {
+        background: #10b98130;
+    }
+}
+
 /* ===== Empty State ===== */
 .empty-state {
     text-align: center;
