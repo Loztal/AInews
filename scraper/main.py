@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timezone
 from collections import defaultdict
 
-from scraper.sources import anthropic_blog, claude_code, model_specs, release_notes, web_sources
+from scraper.sources import anthropic_blog, chrome_extension, claude_code, model_specs, release_notes, web_sources
 from scraper.summarizer import generate_summary
 
 
@@ -21,6 +21,7 @@ def run():
     # Fetch from all sources
     sources = [
         ("Model Specs", model_specs.fetch),
+        ("Chrome Extension", chrome_extension.fetch),
         ("Web Sources", web_sources.fetch),
         ("Anthropic Blog", anthropic_blog.fetch),
         ("Claude Code", claude_code.fetch),
