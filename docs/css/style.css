@@ -209,6 +209,52 @@ body {
     padding: 0 6px;
 }
 
+/* ===== Search ===== */
+.search-wrap {
+    padding: 0 0 8px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--card-border);
+    border-radius: var(--radius);
+    background: var(--card-bg);
+    color: var(--text);
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.search-input:focus {
+    border-color: var(--accent);
+}
+
+.search-input::placeholder {
+    color: var(--text-secondary);
+}
+
+/* ===== Offline Banner ===== */
+.offline-banner {
+    text-align: center;
+    padding: 8px 16px;
+    background: #f59e0b20;
+    color: #b45309;
+    border-radius: var(--radius);
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+    .offline-banner {
+        background: #f59e0b15;
+        color: #fbbf24;
+    }
+}
+
+.offline-banner.hidden { display: none; }
+
 /* ===== Categories ===== */
 .category-section {
     margin-bottom: 24px;
@@ -221,6 +267,12 @@ body {
     padding: 12px 0;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    width: 100%;
+    border: none;
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: left;
 }
 
 .category-title {
@@ -409,6 +461,22 @@ a.card-link {
 .cat-desktop .category-dot { background: #3b82f6; }
 .cat-office_plugins .category-dot { background: #f59e0b; }
 .cat-chrome_extension .category-dot { background: #ef4444; }
+.cat-twitter .category-dot { background: #1d9bf0; }
+
+/* ===== NEW Badge ===== */
+.badge-new {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: var(--accent);
+    color: white;
+    padding: 1px 5px;
+    border-radius: 4px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
 
 /* ===== Loading ===== */
 .loading {

@@ -10,10 +10,47 @@ from email.utils import parsedate_to_datetime
 FEED_URL = "https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml"
 
 
+FALLBACK_POSTS = [
+    {
+        "title": "Anthropic invests $100 million to launch The Anthropic Partner Network",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-partner-network",
+        "summary": "Anthropic launches $100M Partner Network to accelerate enterprise AI adoption through consulting, technology, and implementation partnerships.",
+        "source": "anthropic_blog",
+    },
+    {
+        "title": "Introducing the Anthropic Institute",
+        "date": "2026-03-13T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-institute",
+        "summary": "Anthropic establishes a new research institute focused on AI safety, policy, and governance to advance responsible AI development.",
+        "source": "anthropic_blog",
+    },
+    {
+        "title": "Expanding access in Asia-Pacific",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/expanding-access-asia-pacific",
+        "summary": "Claude is now available to more users across Asia-Pacific, expanding Anthropic's global reach with localized support.",
+        "source": "anthropic_blog",
+    },
+    {
+        "title": "Partnering with Mozilla to advance AI transparency",
+        "date": "2026-03-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/mozilla-partnership",
+        "summary": "Anthropic and Mozilla partner to promote AI transparency, open research, and responsible deployment standards.",
+        "source": "anthropic_blog",
+    },
+]
+
+
 def fetch():
     """Return list of recent Anthropic blog post items."""
-    resp = requests.get(FEED_URL, timeout=30)
-    resp.raise_for_status()
+    try:
+        resp = requests.get(FEED_URL, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"    Warning: Could not fetch Anthropic blog RSS: {e}")
+        print("    Using fallback blog posts")
+        return list(FALLBACK_POSTS)
 
     root = ET.fromstring(resp.text)
     items = []

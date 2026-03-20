@@ -1,11 +1,14 @@
 """Main orchestrator for the daily Claude briefing scraper."""
 
 import json
+import logging
 import os
 from datetime import datetime, timezone
 from collections import defaultdict
 
-from scraper.sources import anthropic_blog, chrome_extension, claude_code, desktop, model_specs, office_plugins, release_notes, twitter_feed, web_sources
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+from scraper.sources import anthropic_blog, chrome_extension, claude_code, desktop, model_specs, office_plugins, release_notes, twitter_feed
 from scraper.summarizer import generate_summary
 
 
@@ -14,7 +17,8 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "docs", "data", "bri
 
 def run():
     """Fetch all sources, categorize, summarize, and write output JSON."""
-    print("Starting daily briefing scraper...")
+    log = logging.getLogger(__name__)
+    log.info("Starting daily briefing scraper...")
 
     all_items = []
 
@@ -24,7 +28,6 @@ def run():
         ("Chrome Extension", chrome_extension.fetch),
         ("Desktop App", desktop.fetch),
         ("Office Plugins", office_plugins.fetch),
-        ("Web Sources", web_sources.fetch),
         ("Twitter", twitter_feed.fetch),
         ("Anthropic Blog", anthropic_blog.fetch),
         ("Claude Code", claude_code.fetch),
@@ -33,12 +36,12 @@ def run():
 
     for name, fetcher in sources:
         try:
-            print(f"  Fetching {name}...")
+            log.info("Fetching %s...", name)
             items = fetcher()
-            print(f"    Got {len(items)} items")
+            log.info("  Got %d items from %s", len(items), name)
             all_items.extend(items)
         except Exception as e:
-            print(f"    Error fetching {name}: {e}")
+            log.error("  Error fetching %s: %s", name, e)
 
     # Categorize items
     categories = defaultdict(list)
@@ -61,7 +64,7 @@ def run():
             categories[key] = []
 
     # Generate AI summary
-    print("  Generating briefing summary...")
+    log.info("Generating briefing summary...")
     summary = generate_summary(dict(categories))
 
     # Build output
@@ -77,7 +80,7 @@ def run():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     total = sum(len(v) for v in categories.values())
-    print(f"Done! Wrote {total} items to {OUTPUT_PATH}")
+    log.info("Done! Wrote %d items to %s", total, OUTPUT_PATH)
 
 
 if __name__ == "__main__":

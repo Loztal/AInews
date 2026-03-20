@@ -19,8 +19,12 @@ OFFICE_KEYWORDS = ["excel", "powerpoint", "office 365", "office plugin", "office
 
 def fetch():
     """Fetch news items filtered for AI models, Chrome, and Office categories."""
-    resp = requests.get(ANTHROPIC_NEWS_RSS, timeout=30)
-    resp.raise_for_status()
+    try:
+        resp = requests.get(ANTHROPIC_NEWS_RSS, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"    Warning: Could not fetch web sources RSS: {e}")
+        return []
 
     root = ET.fromstring(resp.text)
     items = []
