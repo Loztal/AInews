@@ -1,4 +1,4 @@
-var CACHE_VERSION = 'claude-daily-v2';
+var CACHE_VERSION = 'claude-daily-v3';
 
 var APP_SHELL = [
     './',
@@ -46,9 +46,13 @@ self.addEventListener('fetch', function (event) {
                     caches.open(CACHE_VERSION).then(function (cache) {
                         cache.put(event.request, clone);
                     });
+                    // Signal online to clients
+                    notifyClients({ type: 'data-source', source: 'network' });
                     return response;
                 })
                 .catch(function () {
+                    // Signal offline/cached to clients
+                    notifyClients({ type: 'data-source', source: 'cache' });
                     return caches.match(event.request);
                 })
         );
@@ -68,3 +72,11 @@ self.addEventListener('fetch', function (event) {
         })
     );
 });
+
+function notifyClients(msg) {
+    self.clients.matchAll().then(function (clients) {
+        clients.forEach(function (client) {
+            client.postMessage(msg);
+        });
+    });
+}

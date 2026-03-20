@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Anthropic News</title>
+    <item>
+      <title>Claude Opus 4.6 sets new benchmarks</title>
+      <link>https://www.anthropic.com/news/opus-4-6</link>
+      <pubDate>Mon, 18 Mar 2026 00:00:00 GMT</pubDate>
+      <description>&lt;p&gt;Claude Opus 4.6 achieves state-of-the-art performance on coding benchmarks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Claude for Chrome extension update</title>
+      <link>https://www.anthropic.com/news/chrome-update</link>
+      <pubDate>Sun, 15 Mar 2026 12:00:00 GMT</pubDate>
+      <description>New browser extension features for Chrome web store.</description>
+    </item>
+    <item>
+      <title>Claude for Excel add-in improvements</title>
+      <link>https://www.anthropic.com/news/excel-update</link>
+      <pubDate>Sat, 14 Mar 2026 08:00:00 GMT</pubDate>
+      <description>Office add-in gets new formula support in Excel.</description>
+    </item>
+    <item>
+      <title>Anthropic partners with university research labs</title>
+      <link>https://www.anthropic.com/news/university-partnerships</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+      <description>New research collaborations to advance AI safety.</description>
+    </item>
+    <item>
+      <title>Claude Desktop app adds cowork mode</title>
+      <link>https://www.anthropic.com/news/desktop-cowork</link>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 GMT</pubDate>
+      <description>Claude Desktop now features a new cowork mode for file management.</description>
+    </item>
+  </channel>
+</rss>

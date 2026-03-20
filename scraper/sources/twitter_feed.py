@@ -13,28 +13,28 @@ ACCOUNT = "bcherny"
 FALLBACK_TWEETS = [
     {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
-        "date": "2026-03-09T00:00:00",
+        "date": "2026-03-09T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2031089411820228645",
         "summary": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck.",
         "source": "twitter",
     },
     {
         "title": "Can confirm Claude Code is 100% written by Claude Code",
-        "date": "2026-03-07T00:00:00",
+        "date": "2026-03-07T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2007179832300581177",
         "summary": "Boris Cherny confirmed that Claude Code is now 100% written by Claude Code itself, up from roughly 80% in May 2025.",
         "source": "twitter",
     },
     {
         "title": "Tips for using Claude Code, sourced directly from the Claude Code team",
-        "date": "2026-02-19T00:00:00",
+        "date": "2026-02-19T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2017742741636321619",
         "summary": "Tips for using Claude Code sourced from the team. There is no one right way to use Claude Code — everyone's setup is different.",
         "source": "twitter",
     },
     {
         "title": "How I use Claude Code — my setup might be surprisingly vanilla",
-        "date": "2026-02-05T00:00:00",
+        "date": "2026-02-05T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2007179832300581177",
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used.",
         "source": "twitter",

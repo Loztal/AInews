@@ -41,8 +41,16 @@
             <time id="last-updated" class="last-updated"></time>
         </header>
 
+        <!-- Search -->
+        <div id="search-wrap" class="search-wrap"></div>
+
         <!-- Quick Summary Bar -->
         <div id="summary-bar" class="summary-bar"></div>
+
+        <!-- Offline Indicator -->
+        <div id="offline-banner" class="offline-banner hidden" role="status" aria-live="polite">
+            Showing cached data — you are offline
+        </div>
 
         <!-- Category Sections -->
         <div id="categories" class="categories">
@@ -59,6 +67,14 @@
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js');
+            navigator.serviceWorker.addEventListener('message', function (event) {
+                if (event.data && event.data.type === 'data-source') {
+                    var banner = document.getElementById('offline-banner');
+                    if (banner) {
+                        banner.classList.toggle('hidden', event.data.source !== 'cache');
+                    }
+                }
+            });
         }
     </script>
 </body>

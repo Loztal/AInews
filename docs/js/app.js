@@ -21,6 +21,28 @@
         'desktop', 'office_plugins', 'chrome_extension'
     ];
 
+    var COLLAPSE_KEY = 'collapsed-sections';
+    var LAST_VISIT_KEY = 'last-visit-ts';
+
+    // Get last visit time for "NEW" badges, then update it
+    var lastVisit = localStorage.getItem(LAST_VISIT_KEY);
+    var lastVisitDate = lastVisit ? new Date(lastVisit) : null;
+    localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString());
+
+    function getCollapsedSections() {
+        try {
+            return JSON.parse(localStorage.getItem(COLLAPSE_KEY)) || {};
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function setCollapsedSection(key, collapsed) {
+        var state = getCollapsedSections();
+        state[key] = collapsed;
+        localStorage.setItem(COLLAPSE_KEY, JSON.stringify(state));
+    }
+
     // Fetch data
     fetch(DATA_URL)
         .then(function (res) {
@@ -46,8 +68,19 @@
             document.getElementById('last-updated').textContent = relativeTime(date);
             var footer = document.getElementById('footer-updated');
             if (footer) {
-                footer.innerHTML = 'Updated ' + formatISO(date);
+                footer.innerHTML = 'Updated ' + formatLocalTime(date);
             }
+        }
+
+        // Search input
+        var searchWrap = document.getElementById('search-wrap');
+        if (searchWrap) {
+            searchWrap.innerHTML =
+                '<input type="search" id="search-input" class="search-input" placeholder="Filter articles..." aria-label="Filter articles">';
+            var searchInput = document.getElementById('search-input');
+            searchInput.addEventListener('input', function () {
+                filterCards(this.value.trim().toLowerCase());
+            });
         }
 
         // Summary bar chips
@@ -71,6 +104,8 @@
         // Category sections
         var container = document.getElementById('categories');
         container.innerHTML = '';
+        var collapsedState = getCollapsedSections();
+
         CATEGORY_ORDER.forEach(function (key) {
             var items = (data.categories && data.categories[key]) || [];
             var meta = CATEGORY_META[key];
@@ -78,8 +113,10 @@
             var section = document.createElement('section');
             section.className = 'category-section cat-' + key;
 
-            var header = document.createElement('div');
+            // Accessible collapsible header
+            var header = document.createElement('button');
             header.className = 'category-header';
+            header.setAttribute('aria-expanded', collapsedState[key] ? 'false' : 'true');
             header.innerHTML =
                 '<div class="category-title">' +
                     '<span class="category-dot"></span>' +
@@ -89,9 +126,18 @@
 
             var itemsDiv = document.createElement('div');
             itemsDiv.className = 'category-items';
+            itemsDiv.setAttribute('role', 'region');
+            itemsDiv.setAttribute('aria-label', meta.label + ' items');
+
+            // Restore collapsed state
+            if (collapsedState[key]) {
+                itemsDiv.classList.add('collapsed');
+            }
 
             header.addEventListener('click', function () {
-                itemsDiv.classList.toggle('collapsed');
+                var isCollapsed = itemsDiv.classList.toggle('collapsed');
+                header.setAttribute('aria-expanded', isCollapsed ? 'false' : 'true');
+                setCollapsedSection(key, isCollapsed);
             });
 
             if (items.length === 0) {
@@ -115,6 +161,11 @@
         });
     }
 
+    function isNewItem(item) {
+        if (!lastVisitDate || !item.date) return false;
+        return new Date(item.date) > lastVisitDate;
+    }
+
     function createCard(item) {
         var card;
         if (item.url) {
@@ -129,9 +180,10 @@
         }
 
         var dateStr = item.date ? relativeTime(new Date(item.date)) : '';
+        var newBadge = isNewItem(item) ? '<span class="badge-new">NEW</span>' : '';
 
         card.innerHTML =
-            '<div class="card-title">' + escapeHtml(item.title) + '</div>' +
+            '<div class="card-title">' + newBadge + escapeHtml(item.title) + '</div>' +
             '<div class="card-meta"><span class="card-date">' + escapeHtml(dateStr) + '</span></div>' +
             (item.summary ? '<div class="card-summary">' + escapeHtml(item.summary) + '</div>' : '');
 
@@ -169,31 +221,34 @@
         return card;
     }
 
-    function formatISO(date) {
-        // Determine CET (UTC+1) vs CEST (UTC+2) using Europe/Berlin rules
-        var cet = new Date(date.getTime() + 3600000); // UTC+1 base
-        var isCEST = isSummerTime(date);
-        if (isCEST) cet = new Date(date.getTime() + 7200000); // UTC+2
-
-        var y = cet.getUTCFullYear();
-        var m = String(cet.getUTCMonth() + 1).padStart(2, '0');
-        var d = String(cet.getUTCDate()).padStart(2, '0');
-        var h = String(cet.getUTCHours()).padStart(2, '0');
-        var min = String(cet.getUTCMinutes()).padStart(2, '0');
-        var tz = isCEST ? '<span class="tz-dim">CEST</span>' : 'CET';
-        return y + '-' + m + '-' + d + ' ' + h + ':' + min + ' ' + tz;
+    function filterCards(query) {
+        var sections = document.querySelectorAll('.category-section');
+        sections.forEach(function (section) {
+            var cards = section.querySelectorAll('.card');
+            var anyVisible = false;
+            cards.forEach(function (card) {
+                var text = card.textContent.toLowerCase();
+                var match = !query || text.indexOf(query) !== -1;
+                card.style.display = match ? '' : 'none';
+                if (match) anyVisible = true;
+            });
+            section.style.display = anyVisible || !query ? '' : 'none';
+        });
     }
 
-    function isSummerTime(date) {
-        // CEST: last Sunday of March 01:00 UTC to last Sunday of October 01:00 UTC
-        var year = date.getUTCFullYear();
-        var marchLast = new Date(Date.UTC(year, 2, 31));
-        while (marchLast.getUTCDay() !== 0) marchLast.setUTCDate(marchLast.getUTCDate() - 1);
-        marchLast.setUTCHours(1, 0, 0, 0);
-        var octLast = new Date(Date.UTC(year, 9, 31));
-        while (octLast.getUTCDay() !== 0) octLast.setUTCDate(octLast.getUTCDate() - 1);
-        octLast.setUTCHours(1, 0, 0, 0);
-        return date >= marchLast && date < octLast;
+    function formatLocalTime(date) {
+        try {
+            return date.toLocaleString(undefined, {
+                year: 'numeric',
+                month: '2-digit',
+                day: '2-digit',
+                hour: '2-digit',
+                minute: '2-digit',
+                timeZoneName: 'short'
+            });
+        } catch (e) {
+            return date.toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
+        }
     }
 
     function relativeTime(date) {
@@ -214,9 +269,5 @@
         var div = document.createElement('div');
         div.textContent = text || '';
         return div.innerHTML;
-    }
-
-    function escapeAttr(text) {
-        return (text || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     }
 })();
