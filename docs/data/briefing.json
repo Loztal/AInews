@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-20T08:40:48.820295+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 5 model updates, 1 Claude Code releases, 2 Chrome extension updates. Latest: v2.1.80.",
+  "generated": "2026-03-20T08:58:55.999382+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 5 model updates, 1 Claude Code releases, 3 desktop updates, 4 Office plugin updates, 2 Chrome extension updates. Latest: v2.1.80.",
   "categories": {
     "ai_models": [
       {
@@ -93,6 +93,52 @@
         "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
+    "desktop": [
+      {
+        "title": "Claude Cowork — agentic mode for Desktop",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude Cowork turns Claude into a digital coworker inside the Desktop app. It can read, edit, create, and organize files on your computer — no terminal required. Available on Pro and Max plans as a research preview."
+      },
+      {
+        "title": "MCP Desktop Extensions — one-click install",
+        "date": "2025-11-01T00:00:00+00:00",
+        "url": "https://claude.com/download",
+        "summary": "Claude Desktop now supports one-click installation of MCP servers, giving Claude controlled access to local tools and files. A curated Connectors Directory with admin guardrails is available for Team and Enterprise plans."
+      },
+      {
+        "title": "Claude Desktop launches on Windows",
+        "date": "2025-05-01T00:00:00+00:00",
+        "url": "https://claude.com/download",
+        "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
+      }
+    ],
+    "office_plugins": [
+      {
+        "title": "Shared context across Excel and PowerPoint add-ins",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
+        "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
+      },
+      {
+        "title": "Claude for PowerPoint — research preview",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
+        "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
+      },
+      {
+        "title": "Claude for Excel — now available for Pro subscribers",
+        "date": "2026-01-24T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Claude for Excel expands from Max/Enterprise to all Pro subscribers ($20/mo). Supports full spreadsheet functionality including pivot tables, chart modifications, and conditional formatting while keeping formulas and dependencies intact."
+      },
+      {
+        "title": "Claude for Excel — beta launch",
+        "date": "2025-10-01T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+      }
+    ],
     "anthropic_blog": [
       {
         "title": "What 81,000 people want from AI",
@@ -180,8 +226,6 @@
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
         "summary": "Added; Added"
       }
-    ],
-    "desktop": [],
-    "office_plugins": []
+    ]
   }
 }

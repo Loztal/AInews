@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timezone
 from collections import defaultdict
 
-from scraper.sources import anthropic_blog, chrome_extension, claude_code, model_specs, release_notes, web_sources
+from scraper.sources import anthropic_blog, chrome_extension, claude_code, desktop, model_specs, office_plugins, release_notes, web_sources
 from scraper.summarizer import generate_summary
 
 
@@ -22,6 +22,8 @@ def run():
     sources = [
         ("Model Specs", model_specs.fetch),
         ("Chrome Extension", chrome_extension.fetch),
+        ("Desktop App", desktop.fetch),
+        ("Office Plugins", office_plugins.fetch),
         ("Web Sources", web_sources.fetch),
         ("Anthropic Blog", anthropic_blog.fetch),
         ("Claude Code", claude_code.fetch),
