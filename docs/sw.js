@@ -1,4 +1,4 @@
-var CACHE_VERSION = 'claude-daily-v3';
+var CACHE_VERSION = 'claude-daily-v4';
 
 var APP_SHELL = [
     './',
@@ -37,8 +37,8 @@ self.addEventListener('activate', function (event) {
 self.addEventListener('fetch', function (event) {
     var url = new URL(event.request.url);
 
-    // Network-first for briefing data
-    if (url.pathname.endsWith('briefing.json')) {
+    // Network-first for briefing data and feed
+    if (url.pathname.endsWith('briefing.json') || url.pathname.endsWith('feed.xml') || url.pathname.indexOf('/archive/') !== -1) {
         event.respondWith(
             fetch(event.request)
                 .then(function (response) {

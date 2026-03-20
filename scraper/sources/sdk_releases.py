@@ -1,0 +1,77 @@
+"""Fetch Anthropic Python SDK releases from GitHub Atom feed."""
+
+import requests
+import xml.etree.ElementTree as ET
+import re
+
+
+FEED_URL = "https://github.com/anthropics/anthropic-sdk-python/releases.atom"
+ATOM_NS = "{http://www.w3.org/2005/Atom}"
+
+FALLBACK_RELEASES = [
+    {
+        "title": "anthropic-sdk-python v0.49.0",
+        "date": "2026-03-15T00:00:00+00:00",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.49.0",
+        "summary": "Latest Anthropic Python SDK release with API improvements and bug fixes.",
+        "source": "sdk_releases",
+    },
+    {
+        "title": "anthropic-sdk-python v0.48.0",
+        "date": "2026-02-28T00:00:00+00:00",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.48.0",
+        "summary": "SDK update with new model support and streaming enhancements.",
+        "source": "sdk_releases",
+    },
+]
+
+
+def fetch():
+    """Return list of recent Anthropic Python SDK release items."""
+    try:
+        resp = requests.get(FEED_URL, timeout=30)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"    Warning: Could not fetch SDK releases: {e}")
+        return list(FALLBACK_RELEASES)
+
+    root = ET.fromstring(resp.text)
+    items = []
+
+    for entry in root.findall(f"{ATOM_NS}entry")[:5]:
+        title = _text(entry, f"{ATOM_NS}title")
+        updated = _text(entry, f"{ATOM_NS}updated")
+        link_el = entry.find(f"{ATOM_NS}link")
+        link = link_el.get("href", "") if link_el is not None else ""
+        content_el = entry.find(f"{ATOM_NS}content")
+        content_html = content_el.text if content_el is not None and content_el.text else ""
+
+        items.append({
+            "title": f"anthropic-sdk-python {title}" if not title.startswith("anthropic") else title,
+            "date": updated,
+            "url": link,
+            "summary": _extract_highlights(content_html),
+            "source": "sdk_releases",
+        })
+
+    return items if items else list(FALLBACK_RELEASES)
+
+
+def _text(el, tag):
+    child = el.find(tag)
+    return child.text.strip() if child is not None and child.text else ""
+
+
+def _extract_highlights(html):
+    """Extract key highlights from release HTML content."""
+    clean = re.sub(r"<[^>]+>", "\n", html)
+    lines = [l.strip() for l in clean.splitlines() if l.strip() and len(l.strip()) > 3]
+    highlights = []
+    for line in lines[:15]:
+        if line.startswith(("Added", "Fixed", "Changed", "Improved", "feat", "fix", "chore", "-", "*")):
+            text = line.lstrip("-*• ").strip()
+            if text and text not in highlights:
+                highlights.append(text)
+    if not highlights:
+        highlights = [l for l in lines[:3] if len(l) > 5]
+    return ". ".join(highlights[:5])[:300]

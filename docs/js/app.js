@@ -13,21 +13,52 @@
         desktop:           { label: 'Desktop App',        icon: '#3b82f6' },
         office_plugins:    { label: 'Office Plugins',     icon: '#f59e0b' },
         chrome_extension:  { label: 'Chrome Extension',   icon: '#ef4444' },
-        twitter:           { label: 'Twitter',            icon: '#1d9bf0' }
+        twitter:           { label: 'Twitter',            icon: '#1d9bf0' },
+        sdk_releases:      { label: 'SDK Releases',       icon: '#8b5cf6' },
+        community:         { label: 'Community',          icon: '#f97316' }
     };
 
     var CATEGORY_ORDER = [
         'claude_code', 'twitter', 'anthropic_blog', 'ai_models',
-        'desktop', 'office_plugins', 'chrome_extension'
+        'desktop', 'office_plugins', 'chrome_extension', 'sdk_releases', 'community'
     ];
 
     var COLLAPSE_KEY = 'collapsed-sections';
     var LAST_VISIT_KEY = 'last-visit-ts';
+    var BOOKMARKS_KEY = 'bookmarks';
 
     // Get last visit time for "NEW" badges, then update it
     var lastVisit = localStorage.getItem(LAST_VISIT_KEY);
     var lastVisitDate = lastVisit ? new Date(lastVisit) : null;
     localStorage.setItem(LAST_VISIT_KEY, new Date().toISOString());
+
+    // Bookmark helpers
+    function getBookmarks() {
+        try {
+            return JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || {};
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function toggleBookmark(key) {
+        var bm = getBookmarks();
+        if (bm[key]) {
+            delete bm[key];
+        } else {
+            bm[key] = true;
+        }
+        try {
+            localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bm));
+        } catch (e) { /* quota exceeded */ }
+        return !!bm[key];
+    }
+
+    function itemKey(item) {
+        return (item.title || '').toLowerCase().trim();
+    }
+
+    var showingSavedOnly = false;
 
     function getCollapsedSections() {
         try {
@@ -72,6 +103,18 @@
             }
         }
 
+        // Date navigation
+        var dateNav = document.getElementById('date-nav');
+        if (dateNav) {
+            var genDate = data.generated ? new Date(data.generated) : new Date();
+            var dateLabel = document.getElementById('date-label');
+            if (dateLabel) {
+                dateLabel.textContent = genDate.toLocaleDateString('en-US', {
+                    month: 'short', day: 'numeric', year: 'numeric'
+                });
+            }
+        }
+
         // Search input
         var searchWrap = document.getElementById('search-wrap');
         if (searchWrap) {
@@ -86,6 +129,20 @@
         // Summary bar chips
         var summaryBar = document.getElementById('summary-bar');
         summaryBar.innerHTML = '';
+
+        // Saved chip
+        var savedChip = document.createElement('div');
+        savedChip.className = 'summary-chip saved-chip';
+        var savedCount = Object.keys(getBookmarks()).length;
+        savedChip.innerHTML =
+            '<span class="chip-count" style="background:#6b7280">' + savedCount + '</span>Saved';
+        savedChip.addEventListener('click', function () {
+            showingSavedOnly = !showingSavedOnly;
+            savedChip.classList.toggle('chip-active', showingSavedOnly);
+            filterSaved();
+        });
+        summaryBar.appendChild(savedChip);
+
         CATEGORY_ORDER.forEach(function (key) {
             var items = (data.categories && data.categories[key]) || [];
             var meta = CATEGORY_META[key];
@@ -167,6 +224,10 @@
     }
 
     function createCard(item) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'card-wrapper';
+        wrapper.setAttribute('data-item-key', itemKey(item));
+
         var card;
         if (item.url) {
             card = document.createElement('a');
@@ -181,13 +242,49 @@
 
         var dateStr = item.date ? relativeTime(new Date(item.date)) : '';
         var newBadge = isNewItem(item) ? '<span class="badge-new">NEW</span>' : '';
+        var bookmarked = getBookmarks()[itemKey(item)];
 
         card.innerHTML =
-            '<div class="card-title">' + newBadge + escapeHtml(item.title) + '</div>' +
+            '<div class="card-top-row">' +
+                '<div class="card-title">' + newBadge + escapeHtml(item.title) + '</div>' +
+                '<button class="bookmark-btn' + (bookmarked ? ' bookmarked' : '') +
+                    '" aria-label="Bookmark" type="button">&#9733;</button>' +
+            '</div>' +
             '<div class="card-meta"><span class="card-date">' + escapeHtml(dateStr) + '</span></div>' +
             (item.summary ? '<div class="card-summary">' + escapeHtml(item.summary) + '</div>' : '');
 
-        return card;
+        var bmBtn = card.querySelector('.bookmark-btn');
+        bmBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var isNowBookmarked = toggleBookmark(itemKey(item));
+            bmBtn.classList.toggle('bookmarked', isNowBookmarked);
+            // Update saved count in chip
+            var countEl = document.querySelector('.saved-chip .chip-count');
+            if (countEl) countEl.textContent = Object.keys(getBookmarks()).length;
+        });
+
+        wrapper.appendChild(card);
+        return wrapper;
+    }
+
+    function filterSaved() {
+        var bm = getBookmarks();
+        var wrappers = document.querySelectorAll('.card-wrapper');
+        var sections = document.querySelectorAll('.category-section');
+        wrappers.forEach(function (w) {
+            var key = w.getAttribute('data-item-key');
+            if (showingSavedOnly && !bm[key]) {
+                w.style.display = 'none';
+            } else {
+                w.style.display = '';
+            }
+        });
+        // Hide empty sections when filtering
+        sections.forEach(function (section) {
+            var visibleCards = section.querySelectorAll('.card-wrapper:not([style*="display: none"])');
+            section.style.display = (showingSavedOnly && visibleCards.length === 0) ? 'none' : '';
+        });
     }
 
     function createModelCard(item) {
@@ -269,5 +366,50 @@
         var div = document.createElement('div');
         div.textContent = text || '';
         return div.innerHTML;
+    }
+
+    // Date navigation for archive browsing
+    var currentArchiveDate = null;
+
+    function navigateDate(offset) {
+        var base = currentArchiveDate ? new Date(currentArchiveDate) : new Date();
+        base.setDate(base.getDate() + offset);
+        var dateStr = base.toISOString().slice(0, 10);
+        var archiveUrl = 'data/archive/briefing-' + dateStr + '.json';
+
+        fetch(archiveUrl)
+            .then(function (res) {
+                if (!res.ok) throw new Error('No archive for ' + dateStr);
+                return res.json();
+            })
+            .then(function (data) {
+                currentArchiveDate = dateStr;
+                render(data);
+                var todayBtn = document.getElementById('date-today');
+                if (todayBtn) todayBtn.style.display = '';
+            })
+            .catch(function () {
+                console.warn('No archive found for ' + dateStr);
+            });
+    }
+
+    function goToToday() {
+        currentArchiveDate = null;
+        fetch(DATA_URL)
+            .then(function (res) { return res.json(); })
+            .then(render);
+        var todayBtn = document.getElementById('date-today');
+        if (todayBtn) todayBtn.style.display = 'none';
+    }
+
+    // Wire up date nav buttons
+    var prevBtn = document.getElementById('date-prev');
+    var nextBtn = document.getElementById('date-next');
+    var todayBtn = document.getElementById('date-today');
+    if (prevBtn) prevBtn.addEventListener('click', function () { navigateDate(-1); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { navigateDate(1); });
+    if (todayBtn) {
+        todayBtn.addEventListener('click', goToToday);
+        todayBtn.style.display = 'none';
     }
 })();
