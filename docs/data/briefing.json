@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-20T11:22:40.697082+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 9 model updates, 1 Claude Code releases, 17 desktop updates, 9 Office plugin updates, 2 Chrome extension updates. Latest: v2.1.80.",
+  "generated": "2026-03-20T12:32:41.176306+00:00",
+  "briefing_summary": "Today's briefing: 12 blog posts, 9 model updates, 1 Claude Code releases, 17 desktop updates, 9 Office plugin updates, 2 Chrome extension updates. Latest: v2.1.80.",
   "categories": {
     "ai_models": [
       {
@@ -278,12 +278,6 @@
       }
     ],
     "anthropic_blog": [
-      {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
       {
         "title": "Anthropic invests $100 million into the Claude Partner Network",
         "date": "2026-03-12T00:00:00+00:00",
