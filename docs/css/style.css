@@ -462,6 +462,8 @@ a.card-link {
 .cat-office_plugins .category-dot { background: #f59e0b; }
 .cat-chrome_extension .category-dot { background: #ef4444; }
 .cat-twitter .category-dot { background: #1d9bf0; }
+.cat-sdk_releases .category-dot { background: #8b5cf6; }
+.cat-community .category-dot { background: #f97316; }
 
 /* ===== NEW Badge ===== */
 .badge-new {
@@ -495,3 +497,95 @@ a.card-link {
 }
 
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* ===== Date Navigation ===== */
+.date-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.date-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 16px;
+    padding: 6px 12px;
+    cursor: pointer;
+    min-height: 36px;
+    min-width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.date-btn:active { opacity: 0.7; }
+
+.date-label {
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 120px;
+    text-align: center;
+}
+
+.date-today-btn {
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    min-height: 36px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.date-today-btn:active { opacity: 0.8; }
+
+/* ===== Bookmark Button ===== */
+.card-top-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.card-top-row .card-title {
+    flex: 1;
+    min-width: 0;
+}
+
+.bookmark-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--text-secondary);
+    opacity: 0.4;
+    padding: 0 2px;
+    line-height: 1;
+    flex-shrink: 0;
+    -webkit-tap-highlight-color: transparent;
+    transition: opacity 0.2s, color 0.2s;
+}
+
+.bookmark-btn:hover,
+.bookmark-btn:focus {
+    opacity: 0.7;
+}
+
+.bookmark-btn.bookmarked {
+    color: #f59e0b;
+    opacity: 1;
+}
+
+/* ===== Saved Chip Active State ===== */
+.chip-active {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
+}

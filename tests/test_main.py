@@ -80,7 +80,8 @@ class TestCategoryInitialization:
         """All 7 expected categories should exist even when empty."""
         categories = _categorize_and_sort([])
         expected = {"anthropic_blog", "ai_models", "claude_code", "desktop",
-                    "office_plugins", "chrome_extension", "twitter"}
+                    "office_plugins", "chrome_extension", "twitter",
+                    "sdk_releases", "community"}
         assert set(categories.keys()) >= expected
 
     def test_empty_categories_are_lists(self):
@@ -91,10 +92,12 @@ class TestCategoryInitialization:
 
 
 class TestOrchestration:
+    @patch("scraper.feed_generator.generate_feed")
     @patch("scraper.main.generate_summary", return_value="Test summary")
-    def test_source_error_doesnt_stop_pipeline(self, mock_summary, tmp_path):
+    def test_source_error_doesnt_stop_pipeline(self, mock_summary, mock_feed, tmp_path):
         """A failing source should not crash the whole run."""
         output_path = str(tmp_path / "briefing.json")
+        archive_dir = str(tmp_path / "archive")
 
         def failing_fetch():
             raise RuntimeError("Network error")
@@ -103,6 +106,7 @@ class TestOrchestration:
             return [_make_item("Good item", "claude_code")]
 
         with patch("scraper.main.OUTPUT_PATH", output_path), \
+             patch("scraper.main.ARCHIVE_DIR", archive_dir), \
              patch("scraper.main.model_specs") as ms, \
              patch("scraper.main.chrome_extension") as ce, \
              patch("scraper.main.desktop") as dt, \
@@ -110,7 +114,9 @@ class TestOrchestration:
              patch("scraper.main.twitter_feed") as tf, \
              patch("scraper.main.anthropic_blog") as ab, \
              patch("scraper.main.claude_code") as cc, \
-             patch("scraper.main.release_notes") as rn:
+             patch("scraper.main.release_notes") as rn, \
+             patch("scraper.main.sdk_releases") as sr, \
+             patch("scraper.main.community") as cm:
 
             ms.fetch = failing_fetch
             ce.fetch = failing_fetch
@@ -120,6 +126,8 @@ class TestOrchestration:
             ab.fetch = failing_fetch
             cc.fetch = good_fetch
             rn.fetch = failing_fetch
+            sr.fetch = failing_fetch
+            cm.fetch = failing_fetch
 
             run()
 
@@ -128,12 +136,15 @@ class TestOrchestration:
         assert "categories" in data
         assert len(data["categories"]["claude_code"]) == 1
 
+    @patch("scraper.feed_generator.generate_feed")
     @patch("scraper.main.generate_summary", return_value="Test summary")
-    def test_output_json_schema(self, mock_summary, tmp_path):
+    def test_output_json_schema(self, mock_summary, mock_feed, tmp_path):
         """Output should have generated, briefing_summary, categories keys."""
         output_path = str(tmp_path / "briefing.json")
+        archive_dir = str(tmp_path / "archive")
 
         with patch("scraper.main.OUTPUT_PATH", output_path), \
+             patch("scraper.main.ARCHIVE_DIR", archive_dir), \
              patch("scraper.main.model_specs") as ms, \
              patch("scraper.main.chrome_extension") as ce, \
              patch("scraper.main.desktop") as dt, \
@@ -141,9 +152,11 @@ class TestOrchestration:
              patch("scraper.main.twitter_feed") as tf, \
              patch("scraper.main.anthropic_blog") as ab, \
              patch("scraper.main.claude_code") as cc, \
-             patch("scraper.main.release_notes") as rn:
+             patch("scraper.main.release_notes") as rn, \
+             patch("scraper.main.sdk_releases") as sr, \
+             patch("scraper.main.community") as cm:
 
-            for m in [ms, ce, dt, op, tf, ab, cc, rn]:
+            for m in [ms, ce, dt, op, tf, ab, cc, rn, sr, cm]:
                 m.fetch = lambda: []
 
             run()
@@ -187,7 +200,8 @@ def _categorize_and_sort(items):
     for key in categories:
         categories[key].sort(key=lambda x: x.get("date", ""), reverse=True)
     for key in ["anthropic_blog", "ai_models", "claude_code", "desktop",
-                "office_plugins", "chrome_extension", "twitter"]:
+                "office_plugins", "chrome_extension", "twitter",
+                "sdk_releases", "community"]:
         if key not in categories:
             categories[key] = []
     return dict(categories)

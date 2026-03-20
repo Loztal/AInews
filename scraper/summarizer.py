@@ -54,6 +54,8 @@ def _format_items_for_prompt(categories):
         "office_plugins": "MS Office Plugins",
         "chrome_extension": "Chrome Extension",
         "twitter": "Twitter",
+        "sdk_releases": "SDK Releases",
+        "community": "Community",
     }
     parts = []
     for key, label in category_labels.items():
@@ -79,6 +81,8 @@ def _template_summary(categories):
         "office_plugins": "Office plugin updates",
         "chrome_extension": "Chrome extension updates",
         "twitter": "tweets",
+        "sdk_releases": "SDK releases",
+        "community": "community discussions",
     }
     for key, label in category_labels.items():
         n = len(categories.get(key, []))

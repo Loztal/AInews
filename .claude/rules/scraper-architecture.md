@@ -4,7 +4,7 @@
 Every file in `scraper/sources/` must:
 1. Export a `fetch()` function returning `List[Dict]`
 2. Never raise — catch `requests.RequestException`, return `[]` or `FALLBACK_*`
-3. Set `"source"` key to one of: `anthropic_blog`, `ai_models`, `claude_code`, `desktop`, `office_plugins`, `chrome_extension`, `twitter`
+3. Set `"source"` key to one of: `anthropic_blog`, `ai_models`, `claude_code`, `desktop`, `office_plugins`, `chrome_extension`, `twitter`, `sdk_releases`, `community`
 4. Strip HTML from summaries: `re.sub(r"<[^>]+>", "", text)`
 5. Truncate summaries to ~300 chars, titles to ~120 chars
 6. Use ISO 8601 dates with UTC timezone (`+00:00`), or empty string
