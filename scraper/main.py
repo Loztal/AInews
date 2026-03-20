@@ -5,7 +5,7 @@ import os
 from datetime import datetime, timezone
 from collections import defaultdict
 
-from scraper.sources import anthropic_blog, chrome_extension, claude_code, desktop, model_specs, office_plugins, release_notes, web_sources
+from scraper.sources import anthropic_blog, chrome_extension, claude_code, desktop, model_specs, office_plugins, release_notes, twitter_feed, web_sources
 from scraper.summarizer import generate_summary
 
 
@@ -25,6 +25,7 @@ def run():
         ("Desktop App", desktop.fetch),
         ("Office Plugins", office_plugins.fetch),
         ("Web Sources", web_sources.fetch),
+        ("Twitter", twitter_feed.fetch),
         ("Anthropic Blog", anthropic_blog.fetch),
         ("Claude Code", claude_code.fetch),
         ("Release Notes", release_notes.fetch),
@@ -55,7 +56,7 @@ def run():
         categories[key].sort(key=lambda x: x.get("date", ""), reverse=True)
 
     # Ensure all 6 categories exist
-    for key in ["anthropic_blog", "ai_models", "claude_code", "desktop", "office_plugins", "chrome_extension"]:
+    for key in ["anthropic_blog", "ai_models", "claude_code", "desktop", "office_plugins", "chrome_extension", "twitter"]:
         if key not in categories:
             categories[key] = []
 

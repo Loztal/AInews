@@ -12,11 +12,12 @@
         claude_code:       { label: 'Claude Code',        icon: '#10b981' },
         desktop:           { label: 'Desktop App',        icon: '#3b82f6' },
         office_plugins:    { label: 'Office Plugins',     icon: '#f59e0b' },
-        chrome_extension:  { label: 'Chrome Extension',   icon: '#ef4444' }
+        chrome_extension:  { label: 'Chrome Extension',   icon: '#ef4444' },
+        twitter:           { label: 'Twitter',            icon: '#1d9bf0' }
     };
 
     var CATEGORY_ORDER = [
-        'claude_code', 'anthropic_blog', 'ai_models',
+        'claude_code', 'twitter', 'anthropic_blog', 'ai_models',
         'desktop', 'office_plugins', 'chrome_extension'
     ];
 

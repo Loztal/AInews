@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-20T09:30:03.877145+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 9 model updates, 1 Claude Code releases, 17 desktop updates, 9 Office plugin updates, 2 Chrome extension updates. Latest: v2.1.80.",
+  "generated": "2026-03-20T09:33:51.785139+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 5 model updates, 1 Claude Code releases, 3 desktop updates, 4 Office plugin updates, 2 Chrome extension updates. Latest: v2.1.80.",
   "categories": {
     "ai_models": [
       {
@@ -10,34 +10,10 @@
         "summary": "Introducing Claude Sonnet 4.6"
       },
       {
-        "title": "Claude Sonnet 4.6 launch",
-        "date": "2026-02-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Sonnet 4.6 launch"
-      },
-      {
-        "title": "We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, lo...",
-        "date": "2026-02-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta. Read our blog post for more information:Introducing Cl"
-      },
-      {
         "title": "Introducing Claude Opus 4.6",
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://www.anthropic.com/news/claude-opus-4-6",
         "summary": "Introducing Claude Opus 4.6"
-      },
-      {
-        "title": "Claude Opus 4.6 launch",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Opus 4.6 launch"
-      },
-      {
-        "title": "We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information:Introducing Cl...",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information:Introducing Claude Opus 4.6."
       },
       {
         "title": "Claude Opus 4.6",
@@ -119,90 +95,6 @@
     ],
     "desktop": [
       {
-        "title": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
-        "date": "2026-03-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)"
-      },
-      {
-        "title": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage t...",
-        "date": "2026-03-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, seeAssign tasks to Claude from anywhere in Cowork."
-      },
-      {
-        "title": "Claude creates interactive charts, diagrams and visualizations",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude creates interactive charts, diagrams and visualizations"
-      },
-      {
-        "title": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, s...",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, seeCustom visuals in chat."
-      },
-      {
-        "title": "Memory for free users",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Memory for free users"
-      },
-      {
-        "title": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the...",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:"
-      },
-      {
-        "title": "Use Claude’s chat search and memory to build on previous context",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use Claude’s chat search and memory to build on previous context"
-      },
-      {
-        "title": "Import and export your memory from Claude",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Import and export your memory from Claude"
-      },
-      {
-        "title": "Scheduled tasks in Cowork",
-        "date": "2026-02-25T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Scheduled tasks in Cowork"
-      },
-      {
-        "title": "We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customiz...",
-        "date": "2026-02-25T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customize section in Claude Desktop that groups skills, plugins, and connectors in one place. For more information, seeSchedule recurring tasks in Cowork."
-      },
-      {
-        "title": "Cowork plugins and admin controls",
-        "date": "2026-02-24T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Cowork plugins and admin controls"
-      },
-      {
-        "title": "Manage Cowork plugins for your organization",
-        "date": "2026-02-24T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Manage Cowork plugins for your organization"
-      },
-      {
-        "title": "Use plugins in Cowork",
-        "date": "2026-02-24T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use plugins in Cowork"
-      },
-      {
-        "title": "Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can pur...",
-        "date": "2026-02-12T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can purchase an Enterprise plan directly on our website with no Sales conversation required. Self-serve Enterprise plans have a single seat type that includes access to Claude, Claude Cod"
-      },
-      {
         "title": "Claude Cowork — agentic mode for Desktop",
         "date": "2026-02-04T00:00:00+00:00",
         "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
@@ -229,40 +121,10 @@
         "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
       },
       {
-        "title": "Work across Excel and PowerPoint",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Work across Excel and PowerPoint"
-      },
-      {
-        "title": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conve...",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability fo"
-      },
-      {
-        "title": "Use Claude for Excel and PowerPoint with an LLM gateway",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use Claude for Excel and PowerPoint with an LLM gateway"
-      },
-      {
         "title": "Claude for PowerPoint — research preview",
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
         "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
-      },
-      {
-        "title": "Introducing Claude for PowerPoint",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Introducing Claude for PowerPoint"
-      },
-      {
-        "title": "Claude is now available as an add-in for PowerPoint. Read more here:Use Claude for PowerPoint.",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude is now available as an add-in for PowerPoint. Read more here:Use Claude for PowerPoint."
       },
       {
         "title": "Claude for Excel — now available for Pro subscribers",
@@ -364,6 +226,7 @@
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.80",
         "summary": "Added; Added"
       }
-    ]
+    ],
+    "twitter": []
   }
 }
