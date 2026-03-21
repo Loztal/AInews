@@ -16,13 +16,6 @@ FALLBACK_RELEASES = [
         "summary": "Latest Anthropic Python SDK release with API improvements and bug fixes.",
         "source": "sdk_releases",
     },
-    {
-        "title": "anthropic-sdk-python v0.48.0",
-        "date": "2026-02-28T00:00:00+00:00",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.48.0",
-        "summary": "SDK update with new model support and streaming enhancements.",
-        "source": "sdk_releases",
-    },
 ]
 
 
@@ -38,7 +31,7 @@ def fetch():
     root = ET.fromstring(resp.text)
     items = []
 
-    for entry in root.findall(f"{ATOM_NS}entry")[:5]:
+    for entry in root.findall(f"{ATOM_NS}entry")[:1]:
         title = _text(entry, f"{ATOM_NS}title")
         updated = _text(entry, f"{ATOM_NS}updated")
         link_el = entry.find(f"{ATOM_NS}link")
