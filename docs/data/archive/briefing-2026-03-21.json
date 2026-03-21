@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-21T11:14:18.795118+00:00",
+  "generated": "2026-03-21T12:23:43.380093+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 17 desktop updates, 9 Office plugin updates, 2 Chrome extension updates, 4 tweets, 5 SDK releases, 2 community discussions. Latest: v2.1.81.",
   "categories": {
     "ai_models": [
@@ -89,6 +89,32 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
+      }
+    ],
+    "twitter": [
+      {
+        "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
+        "date": "2026-03-09T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2031089411820228645",
+        "summary": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck."
+      },
+      {
+        "title": "Can confirm Claude Code is 100% written by Claude Code",
+        "date": "2026-03-07T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2007179832300581177",
+        "summary": "Boris Cherny confirmed that Claude Code is now 100% written by Claude Code itself, up from roughly 80% in May 2025."
+      },
+      {
+        "title": "Tips for using Claude Code, sourced directly from the Claude Code team",
+        "date": "2026-02-19T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2017742741636321619",
+        "summary": "Tips for using Claude Code sourced from the team. There is no one right way to use Claude Code — everyone's setup is different."
+      },
+      {
+        "title": "How I use Claude Code — my setup might be surprisingly vanilla",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2007179832300581177",
+        "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
     "desktop": [
@@ -365,30 +391,18 @@
         "summary": "Added. bare. settings. channels. Fixed multiple concurrent Claude Code sessions requiring repeated re-authentication when one session refreshes its OAuth token"
       }
     ],
-    "twitter": [
+    "community": [
       {
-        "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
-        "date": "2026-03-09T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2031089411820228645",
-        "summary": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck."
+        "title": "Claude Code is now 100% self-written",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://news.ycombinator.com/item?id=example1",
+        "summary": "HN discussion about Claude Code being entirely self-written. 245 points, 89 comments."
       },
       {
-        "title": "Can confirm Claude Code is 100% written by Claude Code",
-        "date": "2026-03-07T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2007179832300581177",
-        "summary": "Boris Cherny confirmed that Claude Code is now 100% written by Claude Code itself, up from roughly 80% in May 2025."
-      },
-      {
-        "title": "Tips for using Claude Code, sourced directly from the Claude Code team",
-        "date": "2026-02-19T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2017742741636321619",
-        "summary": "Tips for using Claude Code sourced from the team. There is no one right way to use Claude Code — everyone's setup is different."
-      },
-      {
-        "title": "How I use Claude Code — my setup might be surprisingly vanilla",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2007179832300581177",
-        "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
+        "title": "Anthropic launches shared context across Office add-ins",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
+        "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
       }
     ],
     "sdk_releases": [
@@ -421,20 +435,6 @@
         "date": "2026-02-18T20:24:48Z",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.82.0",
         "summary": "fix shared UserLocation and error code types ("
-      }
-    ],
-    "community": [
-      {
-        "title": "Claude Code is now 100% self-written",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://news.ycombinator.com/item?id=example1",
-        "summary": "HN discussion about Claude Code being entirely self-written. 245 points, 89 comments."
-      },
-      {
-        "title": "Anthropic launches shared context across Office add-ins",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
-        "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
       }
     ]
   }
