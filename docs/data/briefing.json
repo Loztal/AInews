@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-23T15:51:03.478730+00:00",
+  "generated": "2026-03-23T16:44:06.224046+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 17 desktop updates, 9 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Show HN: Claudebox – Your Claude Subscription as Personal API.",
   "categories": {
     "ai_models": [
@@ -357,6 +357,14 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.81",
+        "date": "2026-03-20T22:24:50Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
+        "summary": "Added. bare. settings. channels. Fixed multiple concurrent Claude Code sessions requiring repeated re-authentication when one session refreshes its OAuth token"
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -389,14 +397,6 @@
         "date": "2026-03-23T05:51:25+00:00",
         "url": "https://github.com/ArmanJR/claudebox",
         "summary": "HN discussion — https://github.com/ArmanJR/claudebox. 2 points, 0 comments."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.81",
-        "date": "2026-03-20T22:24:50Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.81",
-        "summary": "Added. bare. settings. channels. Fixed multiple concurrent Claude Code sessions requiring repeated re-authentication when one session refreshes its OAuth token"
       }
     ],
     "sdk_releases": [
