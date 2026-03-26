@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-26T14:19:24.679432+00:00",
+  "generated": "2026-03-26T16:01:55.402314+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Show HN: Agent Flow: A beautiful way to visualize Claude Code actions.",
   "categories": {
     "ai_models": [
@@ -251,20 +251,6 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
     "anthropic_blog": [
       {
         "title": "What 81,000 people want from AI",
@@ -357,6 +343,20 @@
         "summary": "Claude on Mars"
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -391,20 +391,20 @@
         "summary": "Added PowerShell tool for Windows as an opt-in preview. Learn more at. Added"
       }
     ],
-    "community": [
-      {
-        "title": "Show HN: Agent Flow: A beautiful way to visualize Claude Code actions",
-        "date": "2026-03-26T10:42:43+00:00",
-        "url": "https://github.com/patoles/agent-flow",
-        "summary": "HN discussion — https://github.com/patoles/agent-flow. 4 points, 3 comments."
-      }
-    ],
     "sdk_releases": [
       {
         "title": "anthropic-sdk-python v0.86.0",
         "date": "2026-03-18T18:42:27Z",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0",
         "summary": "0.86.0 (2026-03-18). Full Changelog:. v0.85.0...v0.86.0"
+      }
+    ],
+    "community": [
+      {
+        "title": "Show HN: Agent Flow: A beautiful way to visualize Claude Code actions",
+        "date": "2026-03-26T10:42:43+00:00",
+        "url": "https://github.com/patoles/agent-flow",
+        "summary": "HN discussion — https://github.com/patoles/agent-flow. 4 points, 3 comments."
       }
     ]
   }
