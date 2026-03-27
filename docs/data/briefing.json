@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-27T14:03:32.928814+00:00",
+  "generated": "2026-03-27T15:40:36.322428+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.85.",
   "categories": {
     "ai_models": [
@@ -135,6 +135,98 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "anthropic_blog": [
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-partner-network",
+        "summary": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      {
+        "title": "Introducing The Anthropic Institute",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+        "date": "2026-03-10T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
+      },
+      {
+        "title": "Partnering with Mozilla to improve Firefox’s security",
+        "date": "2026-03-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+        "summary": "Partnering with Mozilla to improve Firefox’s security"
+      },
+      {
+        "title": "Where things stand with the Department of War",
+        "date": "2026-03-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "summary": "Where things stand with the Department of War"
+      },
+      {
+        "title": "Statement on the comments from Secretary of War Pete Hegseth",
+        "date": "2026-02-27T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+        "summary": "Statement on the comments from Secretary of War Pete Hegseth"
+      },
+      {
+        "title": "Statement from Dario Amodei on our discussions with the Department of War",
+        "date": "2026-02-26T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-department-of-war",
+        "summary": "Statement from Dario Amodei on our discussions with the Department of War"
+      },
+      {
+        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+        "date": "2026-02-25T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/acquires-vercept",
+        "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities"
+      },
+      {
+        "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+        "date": "2026-02-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+        "summary": "Anthropic’s Responsible Scaling Policy: Version 3.0"
+      },
+      {
+        "title": "Detecting and preventing distillation attacks",
+        "date": "2026-02-23T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+        "summary": "Detecting and preventing distillation attacks"
+      },
+      {
+        "title": "Introducing Claude Sonnet 4.6",
+        "date": "2026-02-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "summary": "Introducing Claude Sonnet 4.6"
+      },
+      {
+        "title": "Introducing Claude Opus 4.6",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "summary": "Introducing Claude Opus 4.6"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
+      },
+      {
+        "title": "Claude on Mars",
+        "date": "2026-01-30T00:00:00+00:00",
+        "url": "https://www.anthropic.com/mars",
+        "summary": "Claude on Mars"
+      }
+    ],
     "desktop": [
       {
         "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
@@ -251,98 +343,6 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "anthropic_blog": [
-      {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
-      {
-        "title": "Anthropic invests $100 million into the Claude Partner Network",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-partner-network",
-        "summary": "Anthropic invests $100 million into the Claude Partner Network"
-      },
-      {
-        "title": "Introducing The Anthropic Institute",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/the-anthropic-institute",
-        "summary": "Introducing The Anthropic Institute"
-      },
-      {
-        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
-        "date": "2026-03-10T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
-      },
-      {
-        "title": "Partnering with Mozilla to improve Firefox’s security",
-        "date": "2026-03-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-        "summary": "Partnering with Mozilla to improve Firefox’s security"
-      },
-      {
-        "title": "Where things stand with the Department of War",
-        "date": "2026-03-05T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/where-stand-department-war",
-        "summary": "Where things stand with the Department of War"
-      },
-      {
-        "title": "Statement on the comments from Secretary of War Pete Hegseth",
-        "date": "2026-02-27T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-        "summary": "Statement on the comments from Secretary of War Pete Hegseth"
-      },
-      {
-        "title": "Statement from Dario Amodei on our discussions with the Department of War",
-        "date": "2026-02-26T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/statement-department-of-war",
-        "summary": "Statement from Dario Amodei on our discussions with the Department of War"
-      },
-      {
-        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
-        "date": "2026-02-25T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/acquires-vercept",
-        "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities"
-      },
-      {
-        "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
-        "date": "2026-02-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-        "summary": "Anthropic’s Responsible Scaling Policy: Version 3.0"
-      },
-      {
-        "title": "Detecting and preventing distillation attacks",
-        "date": "2026-02-23T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
-        "summary": "Detecting and preventing distillation attacks"
-      },
-      {
-        "title": "Introducing Claude Sonnet 4.6",
-        "date": "2026-02-17T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-        "summary": "Introducing Claude Sonnet 4.6"
-      },
-      {
-        "title": "Introducing Claude Opus 4.6",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-opus-4-6",
-        "summary": "Introducing Claude Opus 4.6"
-      },
-      {
-        "title": "Claude is a space to think",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude is a space to think"
-      },
-      {
-        "title": "Claude on Mars",
-        "date": "2026-01-30T00:00:00+00:00",
-        "url": "https://www.anthropic.com/mars",
-        "summary": "Claude on Mars"
-      }
-    ],
     "chrome_extension": [
       {
         "title": "Claude for Chrome now in beta for all paid plans",
@@ -391,6 +391,14 @@
         "summary": "Added. Added conditional. Added timestamp markers in transcripts when scheduled tasks ("
       }
     ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.86.0",
+        "date": "2026-03-18T18:42:27Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0",
+        "summary": "0.86.0 (2026-03-18). Full Changelog:. v0.85.0...v0.86.0"
+      }
+    ],
     "community": [
       {
         "title": "Show HN: I tried to reverse engineer Claude Code usage limits",
@@ -403,14 +411,6 @@
         "date": "2026-03-26T10:42:43+00:00",
         "url": "https://github.com/patoles/agent-flow",
         "summary": "HN discussion — https://github.com/patoles/agent-flow. 5 points, 3 comments."
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.86.0",
-        "date": "2026-03-18T18:42:27Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0",
-        "summary": "0.86.0 (2026-03-18). Full Changelog:. v0.85.0...v0.86.0"
       }
     ]
   }
