@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-28T10:20:46.424793+00:00",
-  "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.86.",
+  "generated": "2026-03-28T11:18:51.856751+00:00",
+  "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.86.",
   "categories": {
     "ai_models": [
       {
@@ -357,6 +357,14 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.86",
+        "date": "2026-03-27T21:42:09Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.86",
+        "summary": "Added. Fixed. resume. Fixed Write/Edit/Read failing on files outside the project root (e.g.,. Fixed unnecessary config disk writes on every skill invocation that could cause performance issues and config corruption on Windows"
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -383,12 +391,12 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "claude_code": [
+    "community": [
       {
-        "title": "v2.1.86",
-        "date": "2026-03-27T21:42:09Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.86",
-        "summary": "Added. Fixed. resume. Fixed Write/Edit/Read failing on files outside the project root (e.g.,. Fixed unnecessary config disk writes on every skill invocation that could cause performance issues and config corruption on Windows"
+        "title": "Show HN: I tried to reverse engineer Claude Code usage limits",
+        "date": "2026-03-26T22:31:45+00:00",
+        "url": "https://github.com/abhishekray07/claude-meter",
+        "summary": "HN discussion — https://github.com/abhishekray07/claude-meter. 4 points, 0 comments."
       }
     ],
     "sdk_releases": [
@@ -397,20 +405,6 @@
         "date": "2026-03-18T18:42:27Z",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0",
         "summary": "0.86.0 (2026-03-18). Full Changelog:. v0.85.0...v0.86.0"
-      }
-    ],
-    "community": [
-      {
-        "title": "Show HN: I tried to reverse engineer Claude Code usage limits",
-        "date": "2026-03-26T22:31:45+00:00",
-        "url": "https://github.com/abhishekray07/claude-meter",
-        "summary": "HN discussion — https://github.com/abhishekray07/claude-meter. 4 points, 0 comments."
-      },
-      {
-        "title": "Show HN: Agent Flow: A beautiful way to visualize Claude Code actions",
-        "date": "2026-03-26T10:42:43+00:00",
-        "url": "https://github.com/patoles/agent-flow",
-        "summary": "HN discussion — https://github.com/patoles/agent-flow. 5 points, 3 comments."
       }
     ]
   }
