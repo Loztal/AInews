@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-29T08:28:00.389886+00:00",
+  "generated": "2026-03-29T09:26:31.545724+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.87.",
   "categories": {
     "ai_models": [
@@ -396,7 +396,7 @@
         "title": "Ask HN: What's the latest concensus on OpenAI vs. Anthropic $20/month tier?",
         "date": "2026-03-28T23:57:54+00:00",
         "url": "https://news.ycombinator.com/item?id=47559143",
-        "summary": "HN discussion. 6 points, 2 comments."
+        "summary": "HN discussion. 6 points, 3 comments."
       }
     ],
     "sdk_releases": [
