@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-29T11:19:37.709066+00:00",
+  "generated": "2026-03-29T12:29:30.165287+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.87.",
   "categories": {
     "ai_models": [
@@ -91,46 +91,18 @@
         }
       }
     ],
-    "twitter": [
+    "chrome_extension": [
       {
-        "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
-        "date": "2026-03-09T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2031089411820228645",
-        "summary": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck."
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
       },
       {
-        "title": "Can confirm Claude Code is 100% written by Claude Code",
-        "date": "2026-03-07T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2007179832300581177",
-        "summary": "Boris Cherny confirmed that Claude Code is now 100% written by Claude Code itself, up from roughly 80% in May 2025."
-      },
-      {
-        "title": "Tips for using Claude Code, sourced directly from the Claude Code team",
-        "date": "2026-02-19T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2017742741636321619",
-        "summary": "Tips for using Claude Code sourced from the team. There is no one right way to use Claude Code — everyone's setup is different."
-      },
-      {
-        "title": "How I use Claude Code — my setup might be surprisingly vanilla",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://x.com/bcherny/status/2007179832300581177",
-        "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.87",
-        "date": "2026-03-29T02:17:02Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.87",
-        "summary": "Fixed messages in Cowork Dispatch not getting delivered"
-      }
-    ],
-    "community": [
-      {
-        "title": "Ask HN: What's the latest concensus on OpenAI vs. Anthropic $20/month tier?",
-        "date": "2026-03-28T23:57:54+00:00",
-        "url": "https://news.ycombinator.com/item?id=47559143",
-        "summary": "HN discussion. 6 points, 3 comments."
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -247,20 +219,6 @@
         "date": "2025-05-01T00:00:00+00:00",
         "url": "https://claude.com/download",
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "anthropic_blog": [
@@ -397,6 +355,48 @@
         "date": "2025-10-01T00:00:00+00:00",
         "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+      }
+    ],
+    "twitter": [
+      {
+        "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
+        "date": "2026-03-09T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2031089411820228645",
+        "summary": "New in Claude Code: Code Review. A team of agents runs a deep review on every PR. Code output per Anthropic engineer is up 200% this year and reviews were the bottleneck."
+      },
+      {
+        "title": "Can confirm Claude Code is 100% written by Claude Code",
+        "date": "2026-03-07T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2007179832300581177",
+        "summary": "Boris Cherny confirmed that Claude Code is now 100% written by Claude Code itself, up from roughly 80% in May 2025."
+      },
+      {
+        "title": "Tips for using Claude Code, sourced directly from the Claude Code team",
+        "date": "2026-02-19T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2017742741636321619",
+        "summary": "Tips for using Claude Code sourced from the team. There is no one right way to use Claude Code — everyone's setup is different."
+      },
+      {
+        "title": "How I use Claude Code — my setup might be surprisingly vanilla",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://x.com/bcherny/status/2007179832300581177",
+        "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.87",
+        "date": "2026-03-29T02:17:02Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.87",
+        "summary": "Fixed messages in Cowork Dispatch not getting delivered"
+      }
+    ],
+    "community": [
+      {
+        "title": "Ask HN: What's the latest concensus on OpenAI vs. Anthropic $20/month tier?",
+        "date": "2026-03-28T23:57:54+00:00",
+        "url": "https://news.ycombinator.com/item?id=47559143",
+        "summary": "HN discussion. 6 points, 4 comments."
       }
     ],
     "sdk_releases": [
