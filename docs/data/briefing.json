@@ -1,5 +1,5 @@
 {
-  "generated": "2026-03-30T12:50:58.079374+00:00",
+  "generated": "2026-03-30T14:20:00.054068+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.87.",
   "categories": {
     "ai_models": [
@@ -89,6 +89,14 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.87",
+        "date": "2026-03-29T02:17:02Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.87",
+        "summary": "Fixed messages in Cowork Dispatch not getting delivered"
       }
     ],
     "chrome_extension": [
@@ -383,20 +391,12 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "claude_code": [
-      {
-        "title": "v2.1.87",
-        "date": "2026-03-29T02:17:02Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.87",
-        "summary": "Fixed messages in Cowork Dispatch not getting delivered"
-      }
-    ],
     "community": [
       {
         "title": "Ask HN: What's the latest concensus on OpenAI vs. Anthropic $20/month tier?",
         "date": "2026-03-28T23:57:54+00:00",
         "url": "https://news.ycombinator.com/item?id=47559143",
-        "summary": "HN discussion. 10 points, 8 comments."
+        "summary": "HN discussion. 10 points, 9 comments."
       }
     ],
     "sdk_releases": [
