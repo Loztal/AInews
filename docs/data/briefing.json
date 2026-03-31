@@ -1,6 +1,6 @@
 {
-  "generated": "2026-03-31T17:45:52.615564+00:00",
-  "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: Show HN: HolyCode – OpenCode in Docker. Use your Claude subscription. 30 tools.",
+  "generated": "2026-03-31T18:44:37.936196+00:00",
+  "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: anthropic-sdk-python v0.87.0.",
   "categories": {
     "ai_models": [
       {
@@ -89,20 +89,6 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "anthropic_blog": [
@@ -313,6 +299,20 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
     "office_plugins": [
       {
         "title": "Shared context across Excel and PowerPoint add-ins",
@@ -357,28 +357,6 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
-    "claude_code": [
-      {
-        "title": "v2.1.88",
-        "date": "2026-03-30T23:53:01Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.88",
-        "summary": "chore: Update CHANGELOG.md"
-      }
-    ],
-    "community": [
-      {
-        "title": "Show HN: HolyCode – OpenCode in Docker. Use your Claude subscription. 30 tools",
-        "date": "2026-03-31T08:29:46+00:00",
-        "url": "https://github.com/CoderLuii/HolyCode",
-        "summary": "HN discussion — https://github.com/CoderLuii/HolyCode. 2 points, 1 comments."
-      },
-      {
-        "title": "Show HN: I made a cheaper alternative to Claude Code or Codex CLI",
-        "date": "2026-03-30T21:00:53+00:00",
-        "url": "https://sweetcli.com/",
-        "summary": "HN discussion — https://sweetcli.com/. 2 points, 3 comments."
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -405,12 +383,34 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.88",
+        "date": "2026-03-30T23:53:01Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.88",
+        "summary": "chore: Update CHANGELOG.md"
+      }
+    ],
+    "community": [
+      {
+        "title": "Show HN: HolyCode – OpenCode in Docker. Use your Claude subscription. 30 tools",
+        "date": "2026-03-31T08:29:46+00:00",
+        "url": "https://github.com/CoderLuii/HolyCode",
+        "summary": "HN discussion — https://github.com/CoderLuii/HolyCode. 2 points, 1 comments."
+      },
+      {
+        "title": "Show HN: I made a cheaper alternative to Claude Code or Codex CLI",
+        "date": "2026-03-30T21:00:53+00:00",
+        "url": "https://sweetcli.com/",
+        "summary": "HN discussion — https://sweetcli.com/. 2 points, 3 comments."
+      }
+    ],
     "sdk_releases": [
       {
-        "title": "anthropic-sdk-python v0.86.0",
-        "date": "2026-03-18T18:42:27Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.86.0",
-        "summary": "0.86.0 (2026-03-18). Full Changelog:. v0.85.0...v0.86.0"
+        "title": "anthropic-sdk-python v0.87.0",
+        "date": "2026-03-31T17:52:08Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.87.0",
+        "summary": "0.87.0 (2026-03-31). Full Changelog:. v0.86.0...v0.87.0"
       }
     ]
   }
