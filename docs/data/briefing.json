@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-02T14:15:22.822188+00:00",
+  "generated": "2026-04-02T15:50:10.130782+00:00",
   "briefing_summary": "Today's briefing: 14 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.90.",
   "categories": {
     "ai_models": [
@@ -91,48 +91,18 @@
         }
       }
     ],
-    "office_plugins": [
+    "chrome_extension": [
       {
-        "title": "Shared context across Excel and PowerPoint add-ins",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
-        "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
       },
       {
-        "title": "Work across Excel and PowerPoint",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Work across Excel and PowerPoint"
-      },
-      {
-        "title": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conve...",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability fo"
-      },
-      {
-        "title": "Use Claude for Excel and PowerPoint with an LLM gateway",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use Claude for Excel and PowerPoint with an LLM gateway"
-      },
-      {
-        "title": "Claude for PowerPoint — research preview",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
-        "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
-      },
-      {
-        "title": "Claude for Excel — now available for Pro subscribers",
-        "date": "2026-01-24T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
-        "summary": "Claude for Excel expands from Max/Enterprise to all Pro subscribers ($20/mo). Supports full spreadsheet functionality including pivot tables, chart modifications, and conditional formatting while keeping formulas and dependencies intact."
-      },
-      {
-        "title": "Claude for Excel — beta launch",
-        "date": "2025-10-01T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
-        "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "anthropic_blog": [
@@ -221,18 +191,48 @@
         "summary": "Claude on Mars"
       }
     ],
-    "chrome_extension": [
+    "office_plugins": [
       {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+        "title": "Shared context across Excel and PowerPoint add-ins",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
+        "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
       },
       {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+        "title": "Work across Excel and PowerPoint",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Work across Excel and PowerPoint"
+      },
+      {
+        "title": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conve...",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability fo"
+      },
+      {
+        "title": "Use Claude for Excel and PowerPoint with an LLM gateway",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Use Claude for Excel and PowerPoint with an LLM gateway"
+      },
+      {
+        "title": "Claude for PowerPoint — research preview",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
+        "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
+      },
+      {
+        "title": "Claude for Excel — now available for Pro subscribers",
+        "date": "2026-01-24T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Claude for Excel expands from Max/Enterprise to all Pro subscribers ($20/mo). Supports full spreadsheet functionality including pivot tables, chart modifications, and conditional formatting while keeping formulas and dependencies intact."
+      },
+      {
+        "title": "Claude for Excel — beta launch",
+        "date": "2025-10-01T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
     "desktop": [
@@ -377,6 +377,14 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
+    "community": [
+      {
+        "title": "Ask HN: Is weird it that Anthropic raised my API limit from $500/mo to $200k?",
+        "date": "2026-04-01T05:44:37+00:00",
+        "url": "https://news.ycombinator.com/item?id=47597238",
+        "summary": "HN discussion. 2 points, 4 comments."
+      }
+    ],
     "claude_code": [
       {
         "title": "v2.1.90",
@@ -391,14 +399,6 @@
         "date": "2026-04-01T19:58:33Z",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0",
         "summary": "0.88.0 (2026-04-01). Full Changelog:. v0.87.0...v0.88.0"
-      }
-    ],
-    "community": [
-      {
-        "title": "Ask HN: Is weird it that Anthropic raised my API limit from $500/mo to $200k?",
-        "date": "2026-04-01T05:44:37+00:00",
-        "url": "https://news.ycombinator.com/item?id=47597238",
-        "summary": "HN discussion. 2 points, 4 comments."
       }
     ]
   }
