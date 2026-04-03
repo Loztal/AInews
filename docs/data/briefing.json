@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-03T06:05:32.146943+00:00",
+  "generated": "2026-04-03T07:54:48.270440+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.91.",
   "categories": {
     "ai_models": [
@@ -391,14 +391,6 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.88.0",
-        "date": "2026-04-01T19:58:33Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0",
-        "summary": "0.88.0 (2026-04-01). Full Changelog:. v0.87.0...v0.88.0"
-      }
-    ],
     "community": [
       {
         "title": "Claude Code is now 100% self-written",
@@ -411,6 +403,14 @@
         "date": "2026-03-12T00:00:00+00:00",
         "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
         "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.88.0",
+        "date": "2026-04-01T19:58:33Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.88.0",
+        "summary": "0.88.0 (2026-04-01). Full Changelog:. v0.87.0...v0.88.0"
       }
     ]
   }
