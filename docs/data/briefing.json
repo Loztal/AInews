@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-04T10:22:55.474971+00:00",
+  "generated": "2026-04-04T11:19:49.769688+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.92.",
   "categories": {
     "ai_models": [
@@ -133,6 +133,20 @@
         "date": "2025-10-01T00:00:00+00:00",
         "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+      }
+    ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -343,20 +357,6 @@
         "summary": "Claude on Mars"
       }
     ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -383,20 +383,20 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "community": [
-      {
-        "title": "Ask HN: Anthropic changing billing for third-party harnesses for Teams Accounts?",
-        "date": "2026-04-03T23:25:04+00:00",
-        "url": "https://news.ycombinator.com/item?id=47633659",
-        "summary": "HN discussion. 1 points, 0 comments."
-      }
-    ],
     "claude_code": [
       {
         "title": "v2.1.92",
         "date": "2026-04-04T00:42:02Z",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
         "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
+      }
+    ],
+    "community": [
+      {
+        "title": "Ask HN: Anthropic changing billing for third-party harnesses for Teams Accounts?",
+        "date": "2026-04-03T23:25:04+00:00",
+        "url": "https://news.ycombinator.com/item?id=47633659",
+        "summary": "HN discussion. 1 points, 0 comments."
       }
     ],
     "sdk_releases": [
