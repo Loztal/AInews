@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-04T07:40:57.275758+00:00",
+  "generated": "2026-04-04T08:28:17.422861+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.92.",
   "categories": {
     "ai_models": [
@@ -91,96 +91,18 @@
         }
       }
     ],
-    "anthropic_blog": [
+    "chrome_extension": [
       {
-        "title": "Australian government and Anthropic sign MOU for AI safety and research",
-        "date": "2026-03-31T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/australia-MOU",
-        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
       },
       {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
-      {
-        "title": "Anthropic invests $100 million into the Claude Partner Network",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-partner-network",
-        "summary": "Anthropic invests $100 million into the Claude Partner Network"
-      },
-      {
-        "title": "Introducing The Anthropic Institute",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/the-anthropic-institute",
-        "summary": "Introducing The Anthropic Institute"
-      },
-      {
-        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
-        "date": "2026-03-10T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
-      },
-      {
-        "title": "Partnering with Mozilla to improve Firefox’s security",
-        "date": "2026-03-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-        "summary": "Partnering with Mozilla to improve Firefox’s security"
-      },
-      {
-        "title": "Where things stand with the Department of War",
-        "date": "2026-03-05T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/where-stand-department-war",
-        "summary": "Where things stand with the Department of War"
-      },
-      {
-        "title": "Statement on the comments from Secretary of War Pete Hegseth",
-        "date": "2026-02-27T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-        "summary": "Statement on the comments from Secretary of War Pete Hegseth"
-      },
-      {
-        "title": "Statement from Dario Amodei on our discussions with the Department of War",
-        "date": "2026-02-26T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/statement-department-of-war",
-        "summary": "Statement from Dario Amodei on our discussions with the Department of War"
-      },
-      {
-        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
-        "date": "2026-02-25T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/acquires-vercept",
-        "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities"
-      },
-      {
-        "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
-        "date": "2026-02-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
-        "summary": "Anthropic’s Responsible Scaling Policy: Version 3.0"
-      },
-      {
-        "title": "Introducing Claude Sonnet 4.6",
-        "date": "2026-02-17T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-        "summary": "Introducing Claude Sonnet 4.6"
-      },
-      {
-        "title": "Introducing Claude Opus 4.6",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-opus-4-6",
-        "summary": "Introducing Claude Opus 4.6"
-      },
-      {
-        "title": "Claude is a space to think",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude is a space to think"
-      },
-      {
-        "title": "Claude on Mars",
-        "date": "2026-01-30T00:00:00+00:00",
-        "url": "https://www.anthropic.com/mars",
-        "summary": "Claude on Mars"
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -299,6 +221,98 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
+    "anthropic_blog": [
+      {
+        "title": "Australian government and Anthropic sign MOU for AI safety and research",
+        "date": "2026-03-31T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/australia-MOU",
+        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
+      },
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-partner-network",
+        "summary": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      {
+        "title": "Introducing The Anthropic Institute",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+        "date": "2026-03-10T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
+      },
+      {
+        "title": "Partnering with Mozilla to improve Firefox’s security",
+        "date": "2026-03-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+        "summary": "Partnering with Mozilla to improve Firefox’s security"
+      },
+      {
+        "title": "Where things stand with the Department of War",
+        "date": "2026-03-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "summary": "Where things stand with the Department of War"
+      },
+      {
+        "title": "Statement on the comments from Secretary of War Pete Hegseth",
+        "date": "2026-02-27T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
+        "summary": "Statement on the comments from Secretary of War Pete Hegseth"
+      },
+      {
+        "title": "Statement from Dario Amodei on our discussions with the Department of War",
+        "date": "2026-02-26T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/statement-department-of-war",
+        "summary": "Statement from Dario Amodei on our discussions with the Department of War"
+      },
+      {
+        "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+        "date": "2026-02-25T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/acquires-vercept",
+        "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities"
+      },
+      {
+        "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
+        "date": "2026-02-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+        "summary": "Anthropic’s Responsible Scaling Policy: Version 3.0"
+      },
+      {
+        "title": "Introducing Claude Sonnet 4.6",
+        "date": "2026-02-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "summary": "Introducing Claude Sonnet 4.6"
+      },
+      {
+        "title": "Introducing Claude Opus 4.6",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-6",
+        "summary": "Introducing Claude Opus 4.6"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
+      },
+      {
+        "title": "Claude on Mars",
+        "date": "2026-01-30T00:00:00+00:00",
+        "url": "https://www.anthropic.com/mars",
+        "summary": "Claude on Mars"
+      }
+    ],
     "office_plugins": [
       {
         "title": "Shared context across Excel and PowerPoint add-ins",
@@ -343,28 +357,6 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.92",
-        "date": "2026-04-04T00:42:02Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
-        "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -405,6 +397,14 @@
         "date": "2026-04-03T23:25:04+00:00",
         "url": "https://news.ycombinator.com/item?id=47633659",
         "summary": "HN discussion. 1 points, 0 comments."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.92",
+        "date": "2026-04-04T00:42:02Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+        "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
       }
     ]
   }
