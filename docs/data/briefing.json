@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-05T19:26:24.397207+00:00",
+  "generated": "2026-04-05T20:20:08.039935+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: I connected Claude to my AI runtime – they invented a new language.",
   "categories": {
     "ai_models": [
@@ -89,20 +89,6 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -357,6 +343,28 @@
         "summary": "Claude on Mars"
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.92",
+        "date": "2026-04-04T00:42:02Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
+        "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -383,12 +391,12 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "claude_code": [
+    "sdk_releases": [
       {
-        "title": "v2.1.92",
-        "date": "2026-04-04T00:42:02Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.92",
-        "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
+        "title": "anthropic-sdk-python v0.89.0",
+        "date": "2026-04-03T18:56:27Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.89.0",
+        "summary": "0.89.0 (2026-04-03). Full Changelog:. v0.88.0...v0.89.0"
       }
     ],
     "community": [
@@ -403,14 +411,6 @@
         "date": "2026-04-03T23:25:04+00:00",
         "url": "https://news.ycombinator.com/item?id=47633659",
         "summary": "HN discussion. 2 points, 0 comments."
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.89.0",
-        "date": "2026-04-03T18:56:27Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.89.0",
-        "summary": "0.89.0 (2026-04-03). Full Changelog:. v0.88.0...v0.89.0"
       }
     ]
   }
