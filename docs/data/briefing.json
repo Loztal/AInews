@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-07T18:44:48.663950+00:00",
+  "generated": "2026-04-07T19:49:06.933581+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 7 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: anthropic-sdk-python v0.91.0.",
   "categories": {
     "ai_models": [
@@ -391,14 +391,6 @@
         "summary": "Added. Added interactive Bedrock setup wizard accessible from the login screen when selecting \"3rd-party platform\" — guides you through AWS authentication, region configuration, credential verification, and model pinning. Added per-model and cache-hit breakdown to. remote-control-session-name-prefix"
       }
     ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.91.0",
-        "date": "2026-04-07T18:40:45Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.91.0",
-        "summary": "0.91.0 (2026-04-07). Full Changelog:. v0.90.0...v0.91.0"
-      }
-    ],
     "community": [
       {
         "title": "Claude Code is now 100% self-written",
@@ -411,6 +403,14 @@
         "date": "2026-03-12T00:00:00+00:00",
         "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
         "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.91.0",
+        "date": "2026-04-07T18:40:45Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.91.0",
+        "summary": "0.91.0 (2026-04-07). Full Changelog:. v0.90.0...v0.91.0"
       }
     ]
   }
