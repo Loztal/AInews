@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-11T16:22:46.111450+00:00",
+  "generated": "2026-04-11T17:22:31.373473+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 3 model updates, 1 Claude Code releases, 22 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: anthropic-sdk-python v0.94.0.",
   "categories": {
     "ai_models": [
@@ -109,20 +109,6 @@
         "date": "2025-10-01T00:00:00+00:00",
         "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -351,6 +337,28 @@
         "summary": "Claude is a space to think"
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.101",
+        "date": "2026-04-10T19:03:41Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
+        "summary": "Added. Added OS CA certificate store trust by default, so enterprise TLS proxies work without extra setup (set. Improved brief mode to retry once when Claude responds with plain text instead of a structured message. Improved focus mode: Claude now writes more self-contained summaries since it knows "
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -375,14 +383,6 @@
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2007179832300581177",
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.101",
-        "date": "2026-04-10T19:03:41Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
-        "summary": "Added. Added OS CA certificate store trust by default, so enterprise TLS proxies work without extra setup (set. Improved brief mode to retry once when Claude responds with plain text instead of a structured message. Improved focus mode: Claude now writes more self-contained summaries since it knows "
       }
     ],
     "community": [
