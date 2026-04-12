@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-12T13:52:55.349948+00:00",
+  "generated": "2026-04-12T14:32:35.123014+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 3 model updates, 1 Claude Code releases, 22 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: anthropic-sdk-python v0.94.0.",
   "categories": {
     "ai_models": [
@@ -351,14 +351,6 @@
         "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
-    "claude_code": [
-      {
-        "title": "v2.1.101",
-        "date": "2026-04-10T19:03:41Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
-        "summary": "Added. Added OS CA certificate store trust by default, so enterprise TLS proxies work without extra setup (set. Improved brief mode to retry once when Claude responds with plain text instead of a structured message. Improved focus mode: Claude now writes more self-contained summaries since it knows "
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -385,12 +377,12 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "sdk_releases": [
+    "claude_code": [
       {
-        "title": "anthropic-sdk-python v0.94.0",
-        "date": "2026-04-10T22:27:28Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0",
-        "summary": "0.94.0 (2026-04-10). Full Changelog:. v0.93.0...v0.94.0"
+        "title": "v2.1.101",
+        "date": "2026-04-10T19:03:41Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.101",
+        "summary": "Added. Added OS CA certificate store trust by default, so enterprise TLS proxies work without extra setup (set. Improved brief mode to retry once when Claude responds with plain text instead of a structured message. Improved focus mode: Claude now writes more self-contained summaries since it knows "
       }
     ],
     "community": [
@@ -405,6 +397,14 @@
         "date": "2026-03-12T00:00:00+00:00",
         "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
         "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.94.0",
+        "date": "2026-04-10T22:27:28Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0",
+        "summary": "0.94.0 (2026-04-10). Full Changelog:. v0.93.0...v0.94.0"
       }
     ]
   }
