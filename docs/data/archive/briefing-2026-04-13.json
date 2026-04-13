@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-13T17:50:20.584516+00:00",
-  "briefing_summary": "Today's briefing: 15 blog posts, 3 model updates, 1 Claude Code releases, 22 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.104.",
+  "generated": "2026-04-13T18:58:58.524976+00:00",
+  "briefing_summary": "Today's briefing: 15 blog posts, 3 model updates, 1 Claude Code releases, 22 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: anthropic-sdk-python v0.94.1.",
   "categories": {
     "ai_models": [
       {
@@ -65,6 +65,20 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
+      }
+    ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "office_plugins": [
@@ -337,18 +351,12 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "chrome_extension": [
+    "sdk_releases": [
       {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+        "title": "anthropic-sdk-python v0.94.1",
+        "date": "2026-04-13T18:07:46Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.1",
+        "summary": "0.94.1 (2026-04-13). Full Changelog:. v0.94.0...v0.94.1"
       }
     ],
     "claude_code": [
@@ -397,14 +405,6 @@
         "date": "2026-03-12T00:00:00+00:00",
         "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
         "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.94.0",
-        "date": "2026-04-10T22:27:28Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.94.0",
-        "summary": "0.94.0 (2026-04-10). Full Changelog:. v0.93.0...v0.94.0"
       }
     ]
   }
