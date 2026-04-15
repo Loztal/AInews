@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-15T12:56:32.462618+00:00",
+  "generated": "2026-04-15T14:27:02.897003+00:00",
   "briefing_summary": "Today's briefing: 15 blog posts, 3 model updates, 1 Claude Code releases, 22 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: Ask HN: Is Claude Getting Worse?.",
   "categories": {
     "ai_models": [
@@ -351,14 +351,6 @@
         "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
-    "claude_code": [
-      {
-        "title": "v2.1.109",
-        "date": "2026-04-15T04:02:13Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.109",
-        "summary": "Improved the extended-thinking indicator with a rotating progress hint"
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -385,12 +377,20 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.109",
+        "date": "2026-04-15T04:02:13Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.109",
+        "summary": "Improved the extended-thinking indicator with a rotating progress hint"
+      }
+    ],
     "community": [
       {
         "title": "Ask HN: Is Claude Getting Worse?",
         "date": "2026-04-15T12:20:05+00:00",
         "url": "https://news.ycombinator.com/item?id=47778035",
-        "summary": "HN discussion. 3 points, 7 comments."
+        "summary": "HN discussion. 3 points, 10 comments."
       },
       {
         "title": "Show HN: Signoff.sh – Claude Co-Authored-By with random fictional characters",
