@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-16T20:40:31.097849+00:00",
+  "generated": "2026-04-16T21:33:27.492848+00:00",
   "briefing_summary": "Today's briefing: 14 blog posts, 5 model updates, 1 Claude Code releases, 20 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.112.",
   "categories": {
     "ai_models": [
@@ -345,6 +345,14 @@
         "summary": "Claude is a space to think"
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.112",
+        "date": "2026-04-16T19:55:41Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
+        "summary": "Fixed \"claude-opus-4-7 is temporarily unavailable\" for auto mode"
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -369,14 +377,6 @@
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2007179832300581177",
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.112",
-        "date": "2026-04-16T19:55:41Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.112",
-        "summary": "Fixed \"claude-opus-4-7 is temporarily unavailable\" for auto mode"
       }
     ],
     "community": [
