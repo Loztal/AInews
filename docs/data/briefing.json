@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T08:20:11.085505+00:00",
+  "generated": "2026-04-17T10:03:56.549954+00:00",
   "briefing_summary": "Today's briefing: 14 blog posts, 5 model updates, 1 Claude Code releases, 20 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.112.",
   "categories": {
     "ai_models": [
@@ -77,6 +77,128 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
+      }
+    ],
+    "desktop": [
+      {
+        "title": "Claude Cowork generally available",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude Cowork generally available"
+      },
+      {
+        "title": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding...",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding Claude Cowork with new capabilities:"
+      },
+      {
+        "title": "Claude Cowork in the Analytics API.For more information, seeClaude Enterprise Analytics API: Access engagement and adopt...",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude Cowork in the Analytics API.For more information, seeClaude Enterprise Analytics API: Access engagement and adoption data."
+      },
+      {
+        "title": "Usage analytics for Claude Cowork.For more information, seeView usage analytics for Team and Enterprise plans.",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Usage analytics for Claude Cowork.For more information, seeView usage analytics for Team and Enterprise plans."
+      },
+      {
+        "title": "Claude Cowork OpenTelemetry support.For more information, seeMonitor Claude Cowork activity with OpenTelemetry.",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude Cowork OpenTelemetry support.For more information, seeMonitor Claude Cowork activity with OpenTelemetry."
+      },
+      {
+        "title": "Admins can now organize users into groups, manually or via SCIM from your identity provider, and assign each group a cus...",
+        "date": "2026-04-09T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Admins can now organize users into groups, manually or via SCIM from your identity provider, and assign each group a custom role defining which Claude capabilities its members can use. Turn Claude Cowork on for specific teams, restrict features by department and adjust as adoption grows. Learn more "
+      },
+      {
+        "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+        "date": "2026-03-23T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Computer use research preview in Cowork and Claude Code + Dispatch improvements"
+      },
+      {
+        "title": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, a...",
+        "date": "2026-03-23T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use you"
+      },
+      {
+        "title": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
+        "date": "2026-03-17T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)"
+      },
+      {
+        "title": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage t...",
+        "date": "2026-03-17T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, seeAssign tasks to Claude from anywhere in Cowork."
+      },
+      {
+        "title": "Claude creates interactive charts, diagrams and visualizations",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude creates interactive charts, diagrams and visualizations"
+      },
+      {
+        "title": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, s...",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, seeCustom visuals in chat."
+      },
+      {
+        "title": "Memory for free users",
+        "date": "2026-03-02T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Memory for free users"
+      },
+      {
+        "title": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the...",
+        "date": "2026-03-02T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:"
+      },
+      {
+        "title": "Use Claude’s chat search and memory to build on previous context",
+        "date": "2026-03-02T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Use Claude’s chat search and memory to build on previous context"
+      },
+      {
+        "title": "Import and export your memory from Claude",
+        "date": "2026-03-02T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Import and export your memory from Claude"
+      },
+      {
+        "title": "Scheduled tasks in Cowork",
+        "date": "2026-02-25T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Scheduled tasks in Cowork"
+      },
+      {
+        "title": "Claude Cowork — agentic mode for Desktop",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude Cowork turns Claude into a digital coworker inside the Desktop app. It can read, edit, create, and organize files on your computer — no terminal required. Available on Pro and Max plans as a research preview."
+      },
+      {
+        "title": "MCP Desktop Extensions — one-click install",
+        "date": "2025-11-01T00:00:00+00:00",
+        "url": "https://claude.com/download",
+        "summary": "Claude Desktop now supports one-click installation of MCP servers, giving Claude controlled access to local tools and files. A curated Connectors Directory with admin guardrails is available for Team and Enterprise plans."
+      },
+      {
+        "title": "Claude Desktop launches on Windows",
+        "date": "2025-05-01T00:00:00+00:00",
+        "url": "https://claude.com/download",
+        "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
     "anthropic_blog": [
@@ -223,126 +345,12 @@
         "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
-    "desktop": [
+    "sdk_releases": [
       {
-        "title": "Claude Cowork generally available",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Cowork generally available"
-      },
-      {
-        "title": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding...",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding Claude Cowork with new capabilities:"
-      },
-      {
-        "title": "Claude Cowork in the Analytics API.For more information, seeClaude Enterprise Analytics API: Access engagement and adopt...",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Cowork in the Analytics API.For more information, seeClaude Enterprise Analytics API: Access engagement and adoption data."
-      },
-      {
-        "title": "Usage analytics for Claude Cowork.For more information, seeView usage analytics for Team and Enterprise plans.",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Usage analytics for Claude Cowork.For more information, seeView usage analytics for Team and Enterprise plans."
-      },
-      {
-        "title": "Claude Cowork OpenTelemetry support.For more information, seeMonitor Claude Cowork activity with OpenTelemetry.",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude Cowork OpenTelemetry support.For more information, seeMonitor Claude Cowork activity with OpenTelemetry."
-      },
-      {
-        "title": "Admins can now organize users into groups, manually or via SCIM from your identity provider, and assign each group a cus...",
-        "date": "2026-04-09T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Admins can now organize users into groups, manually or via SCIM from your identity provider, and assign each group a custom role defining which Claude capabilities its members can use. Turn Claude Cowork on for specific teams, restrict features by department and adjust as adoption grows. Learn more "
-      },
-      {
-        "title": "Computer use research preview in Cowork and Claude Code + Dispatch improvements",
-        "date": "2026-03-23T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Computer use research preview in Cowork and Claude Code + Dispatch improvements"
-      },
-      {
-        "title": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, a...",
-        "date": "2026-03-23T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use you"
-      },
-      {
-        "title": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
-        "date": "2026-03-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Control Cowork from your phone with a persistent thread (research preview for Pro/Max)"
-      },
-      {
-        "title": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage t...",
-        "date": "2026-03-17T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, seeAssign tasks to Claude from anywhere in Cowork."
-      },
-      {
-        "title": "Claude creates interactive charts, diagrams and visualizations",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude creates interactive charts, diagrams and visualizations"
-      },
-      {
-        "title": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, s...",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, seeCustom visuals in chat."
-      },
-      {
-        "title": "Memory for free users",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Memory for free users"
-      },
-      {
-        "title": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the...",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles:"
-      },
-      {
-        "title": "Use Claude’s chat search and memory to build on previous context",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use Claude’s chat search and memory to build on previous context"
-      },
-      {
-        "title": "Import and export your memory from Claude",
-        "date": "2026-03-02T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Import and export your memory from Claude"
-      },
-      {
-        "title": "Scheduled tasks in Cowork",
-        "date": "2026-02-25T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Scheduled tasks in Cowork"
-      },
-      {
-        "title": "Claude Cowork — agentic mode for Desktop",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude Cowork turns Claude into a digital coworker inside the Desktop app. It can read, edit, create, and organize files on your computer — no terminal required. Available on Pro and Max plans as a research preview."
-      },
-      {
-        "title": "MCP Desktop Extensions — one-click install",
-        "date": "2025-11-01T00:00:00+00:00",
-        "url": "https://claude.com/download",
-        "summary": "Claude Desktop now supports one-click installation of MCP servers, giving Claude controlled access to local tools and files. A curated Connectors Directory with admin guardrails is available for Team and Enterprise plans."
-      },
-      {
-        "title": "Claude Desktop launches on Windows",
-        "date": "2025-05-01T00:00:00+00:00",
-        "url": "https://claude.com/download",
-        "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
+        "title": "anthropic-sdk-python v0.96.0",
+        "date": "2026-04-16T14:27:28Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
+        "summary": "0.96.0 (2026-04-16). Full Changelog:. v0.95.0...v0.96.0"
       }
     ],
     "twitter": [
@@ -384,15 +392,7 @@
         "title": "Ask HN: Is Claude Getting Worse?",
         "date": "2026-04-15T12:20:05+00:00",
         "url": "https://news.ycombinator.com/item?id=47778035",
-        "summary": "HN discussion. 7 points, 17 comments."
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.96.0",
-        "date": "2026-04-16T14:27:28Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
-        "summary": "0.96.0 (2026-04-16). Full Changelog:. v0.95.0...v0.96.0"
+        "summary": "HN discussion. 7 points, 18 comments."
       }
     ]
   }
