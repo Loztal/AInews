@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-20T21:36:46.307016+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Claude UI Feature Request.",
+  "generated": "2026-04-20T22:32:42.319707+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.116.",
   "categories": {
     "ai_models": [
       {
@@ -83,6 +83,144 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
+      }
+    ],
+    "office_plugins": [
+      {
+        "title": "Shared context across Excel and PowerPoint add-ins",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
+        "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
+      },
+      {
+        "title": "Work across Excel and PowerPoint",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Work across Excel and PowerPoint"
+      },
+      {
+        "title": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conve...",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability fo"
+      },
+      {
+        "title": "Use Claude for Excel and PowerPoint with an LLM gateway",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://support.claude.com/en/articles/12138966-release-notes",
+        "summary": "Use Claude for Excel and PowerPoint with an LLM gateway"
+      },
+      {
+        "title": "Claude for PowerPoint — research preview",
+        "date": "2026-02-05T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
+        "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
+      },
+      {
+        "title": "Claude for Excel — now available for Pro subscribers",
+        "date": "2026-01-24T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Claude for Excel expands from Max/Enterprise to all Pro subscribers ($20/mo). Supports full spreadsheet functionality including pivot tables, chart modifications, and conditional formatting while keeping formulas and dependencies intact."
+      },
+      {
+        "title": "Claude for Excel — beta launch",
+        "date": "2025-10-01T00:00:00+00:00",
+        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
+        "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+      }
+    ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
+    "anthropic_blog": [
+      {
+        "title": "Introducing Claude Design by Anthropic Labs",
+        "date": "2026-04-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "summary": "Introducing Claude Design by Anthropic Labs"
+      },
+      {
+        "title": "Introducing Claude Opus 4.7",
+        "date": "2026-04-16T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "summary": "Introducing Claude Opus 4.7"
+      },
+      {
+        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+        "date": "2026-04-14T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/narasimhan-board",
+        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
+      },
+      {
+        "title": "Project Glasswing",
+        "date": "2026-04-07T00:00:00+00:00",
+        "url": "https://www.anthropic.com/glasswing",
+        "summary": "Project Glasswing"
+      },
+      {
+        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+        "date": "2026-04-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
+      },
+      {
+        "title": "Australian government and Anthropic sign MOU for AI safety and research",
+        "date": "2026-03-31T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/australia-MOU",
+        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
+      },
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-partner-network",
+        "summary": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      {
+        "title": "Introducing The Anthropic Institute",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
+        "date": "2026-03-10T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
+        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
+      },
+      {
+        "title": "Partnering with Mozilla to improve Firefox’s security",
+        "date": "2026-03-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+        "summary": "Partnering with Mozilla to improve Firefox’s security"
+      },
+      {
+        "title": "Where things stand with the Department of War",
+        "date": "2026-03-05T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/where-stand-department-war",
+        "summary": "Where things stand with the Department of War"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
       }
     ],
     "desktop": [
@@ -201,160 +339,6 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "anthropic_blog": [
-      {
-        "title": "Introducing Claude Design by Anthropic Labs",
-        "date": "2026-04-17T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "summary": "Introducing Claude Design by Anthropic Labs"
-      },
-      {
-        "title": "Introducing Claude Opus 4.7",
-        "date": "2026-04-16T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "summary": "Introducing Claude Opus 4.7"
-      },
-      {
-        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-        "date": "2026-04-14T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/narasimhan-board",
-        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
-      },
-      {
-        "title": "Project Glasswing",
-        "date": "2026-04-07T00:00:00+00:00",
-        "url": "https://www.anthropic.com/glasswing",
-        "summary": "Project Glasswing"
-      },
-      {
-        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-        "date": "2026-04-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
-      },
-      {
-        "title": "Australian government and Anthropic sign MOU for AI safety and research",
-        "date": "2026-03-31T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/australia-MOU",
-        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
-      },
-      {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
-      {
-        "title": "Anthropic invests $100 million into the Claude Partner Network",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-partner-network",
-        "summary": "Anthropic invests $100 million into the Claude Partner Network"
-      },
-      {
-        "title": "Introducing The Anthropic Institute",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/the-anthropic-institute",
-        "summary": "Introducing The Anthropic Institute"
-      },
-      {
-        "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
-        "date": "2026-03-10T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
-        "summary": "Sydney will become Anthropic’s fourth office in Asia-Pacific"
-      },
-      {
-        "title": "Partnering with Mozilla to improve Firefox’s security",
-        "date": "2026-03-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/mozilla-firefox-security",
-        "summary": "Partnering with Mozilla to improve Firefox’s security"
-      },
-      {
-        "title": "Where things stand with the Department of War",
-        "date": "2026-03-05T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/where-stand-department-war",
-        "summary": "Where things stand with the Department of War"
-      },
-      {
-        "title": "Claude is a space to think",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude is a space to think"
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
-    "office_plugins": [
-      {
-        "title": "Shared context across Excel and PowerPoint add-ins",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://venturebeat.com/orchestration/anthropic-gives-claude-shared-context-across-microsoft-excel-and-powerpoint",
-        "summary": "The Claude add-ins for Excel and PowerPoint now share a single conversation thread, eliminating repeated setup when switching between apps. Reusable Skills let teams save repeatable workflows as one-click actions. Available on Mac and Windows for all paid plans."
-      },
-      {
-        "title": "Work across Excel and PowerPoint",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Work across Excel and PowerPoint"
-      },
-      {
-        "title": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conve...",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability fo"
-      },
-      {
-        "title": "Use Claude for Excel and PowerPoint with an LLM gateway",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://support.claude.com/en/articles/12138966-release-notes",
-        "summary": "Use Claude for Excel and PowerPoint with an LLM gateway"
-      },
-      {
-        "title": "Claude for PowerPoint — research preview",
-        "date": "2026-02-05T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/office/wa200010001?tab=overview",
-        "summary": "Claude for PowerPoint launches as a research preview. It reads slide masters, layouts, fonts, and color schemes to generate or revise content while maintaining brand consistency. Creates native editable charts and diagrams. Available for Max, Team, and Enterprise plans."
-      },
-      {
-        "title": "Claude for Excel — now available for Pro subscribers",
-        "date": "2026-01-24T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
-        "summary": "Claude for Excel expands from Max/Enterprise to all Pro subscribers ($20/mo). Supports full spreadsheet functionality including pivot tables, chart modifications, and conditional formatting while keeping formulas and dependencies intact."
-      },
-      {
-        "title": "Claude for Excel — beta launch",
-        "date": "2025-10-01T00:00:00+00:00",
-        "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
-        "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.114",
-        "date": "2026-04-18T01:34:30Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
-        "summary": "Fixed a crash in the permission dialog when an agent teams teammate requested tool permission"
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.96.0",
-        "date": "2026-04-16T14:27:28Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
-        "summary": "0.96.0 (2026-04-16). Full Changelog:. v0.95.0...v0.96.0"
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -379,6 +363,22 @@
         "date": "2026-02-05T00:00:00+00:00",
         "url": "https://x.com/bcherny/status/2007179832300581177",
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.116",
+        "date": "2026-04-20T22:18:28Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+        "summary": "mention"
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.96.0",
+        "date": "2026-04-16T14:27:28Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.96.0",
+        "summary": "0.96.0 (2026-04-16). Full Changelog:. v0.95.0...v0.96.0"
       }
     ],
     "community": [
