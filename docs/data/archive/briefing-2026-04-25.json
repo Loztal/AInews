@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-25T13:56:23.937621+00:00",
+  "generated": "2026-04-25T14:36:38.753411+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: v2.1.120.",
   "categories": {
     "ai_models": [
@@ -85,6 +85,20 @@
         }
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
     "office_plugins": [
       {
         "title": "Shared context across Excel and PowerPoint add-ins",
@@ -129,18 +143,84 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
-    "chrome_extension": [
+    "anthropic_blog": [
       {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+        "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+        "date": "2026-04-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-nec",
+        "summary": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce"
       },
       {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+        "title": "An update on our election safeguards",
+        "date": "2026-04-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/election-safeguards-update",
+        "summary": "An update on our election safeguards"
+      },
+      {
+        "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+        "date": "2026-04-20T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+        "summary": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
+      },
+      {
+        "title": "Introducing Claude Design by Anthropic Labs",
+        "date": "2026-04-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "summary": "Introducing Claude Design by Anthropic Labs"
+      },
+      {
+        "title": "Introducing Claude Opus 4.7",
+        "date": "2026-04-16T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "summary": "Introducing Claude Opus 4.7"
+      },
+      {
+        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+        "date": "2026-04-14T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/narasimhan-board",
+        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
+      },
+      {
+        "title": "Project Glasswing",
+        "date": "2026-04-07T00:00:00+00:00",
+        "url": "https://www.anthropic.com/glasswing",
+        "summary": "Project Glasswing"
+      },
+      {
+        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+        "date": "2026-04-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
+      },
+      {
+        "title": "Australian government and Anthropic sign MOU for AI safety and research",
+        "date": "2026-03-31T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/australia-MOU",
+        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
+      },
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Anthropic invests $100 million into the Claude Partner Network",
+        "date": "2026-03-12T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-partner-network",
+        "summary": "Anthropic invests $100 million into the Claude Partner Network"
+      },
+      {
+        "title": "Introducing The Anthropic Institute",
+        "date": "2026-03-11T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/the-anthropic-institute",
+        "summary": "Introducing The Anthropic Institute"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
       }
     ],
     "desktop": [
@@ -259,86 +339,6 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "anthropic_blog": [
-      {
-        "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-        "date": "2026-04-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/anthropic-nec",
-        "summary": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce"
-      },
-      {
-        "title": "An update on our election safeguards",
-        "date": "2026-04-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/election-safeguards-update",
-        "summary": "An update on our election safeguards"
-      },
-      {
-        "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-        "date": "2026-04-20T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-        "summary": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
-      },
-      {
-        "title": "Introducing Claude Design by Anthropic Labs",
-        "date": "2026-04-17T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "summary": "Introducing Claude Design by Anthropic Labs"
-      },
-      {
-        "title": "Introducing Claude Opus 4.7",
-        "date": "2026-04-16T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "summary": "Introducing Claude Opus 4.7"
-      },
-      {
-        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-        "date": "2026-04-14T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/narasimhan-board",
-        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
-      },
-      {
-        "title": "Project Glasswing",
-        "date": "2026-04-07T00:00:00+00:00",
-        "url": "https://www.anthropic.com/glasswing",
-        "summary": "Project Glasswing"
-      },
-      {
-        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-        "date": "2026-04-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
-      },
-      {
-        "title": "Australian government and Anthropic sign MOU for AI safety and research",
-        "date": "2026-03-31T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/australia-MOU",
-        "summary": "Australian government and Anthropic sign MOU for AI safety and research"
-      },
-      {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
-      {
-        "title": "Anthropic invests $100 million into the Claude Partner Network",
-        "date": "2026-03-12T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-partner-network",
-        "summary": "Anthropic invests $100 million into the Claude Partner Network"
-      },
-      {
-        "title": "Introducing The Anthropic Institute",
-        "date": "2026-03-11T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/the-anthropic-institute",
-        "summary": "Introducing The Anthropic Institute"
-      },
-      {
-        "title": "Claude is a space to think",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude is a space to think"
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -373,20 +373,20 @@
         "summary": "fix errors in api spec ("
       }
     ],
+    "community": [
+      {
+        "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
+        "date": "2026-04-24T19:55:09+00:00",
+        "url": "https://news.ycombinator.com/item?id=47895029",
+        "summary": "HN discussion. 88 points, 82 comments."
+      }
+    ],
     "claude_code": [
       {
         "title": "v2.1.120",
         "date": "2026-04-25T00:14:25Z",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
         "summary": "chore: Update CHANGELOG.md"
-      }
-    ],
-    "community": [
-      {
-        "title": "Tell HN: Claude 4.7 is ignoring stop hooks",
-        "date": "2026-04-24T19:55:09+00:00",
-        "url": "https://news.ycombinator.com/item?id=47895029",
-        "summary": "HN discussion. 87 points, 82 comments."
       }
     ]
   }
