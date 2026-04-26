@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T16:29:47.689405+00:00",
+  "generated": "2026-04-26T17:30:02.844259+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: Tell HN: Claude Code is unable to respond to this request.",
   "categories": {
     "ai_models": [
@@ -373,6 +373,14 @@
         "summary": "chore: Update CHANGELOG.md"
       }
     ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.97.0",
+        "date": "2026-04-23T20:51:59Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+        "summary": "fix errors in api spec ("
+      }
+    ],
     "community": [
       {
         "title": "Tell HN: Claude Code is unable to respond to this request",
@@ -385,14 +393,6 @@
         "date": "2026-04-24T19:55:09+00:00",
         "url": "https://news.ycombinator.com/item?id=47895029",
         "summary": "HN discussion. 92 points, 86 comments."
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.97.0",
-        "date": "2026-04-23T20:51:59Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
-        "summary": "fix errors in api spec ("
       }
     ]
   }
