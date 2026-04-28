@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-28T21:52:20.538777+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 3 community discussions. Latest: Tell HN: Claude flags biology / biotech questions.",
+  "generated": "2026-04-28T22:44:55.669063+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 3 community discussions. Latest: v2.1.122.",
   "categories": {
     "ai_models": [
       {
@@ -365,20 +365,12 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.97.0",
-        "date": "2026-04-23T20:51:59Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
-        "summary": "fix errors in api spec ("
-      }
-    ],
     "claude_code": [
       {
-        "title": "v2.1.121",
-        "date": "2026-04-28T00:31:31Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-        "summary": "Added. Added a type-to-filter search box to"
+        "title": "v2.1.122",
+        "date": "2026-04-28T22:05:15Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+        "summary": "Added"
       }
     ],
     "community": [
@@ -399,6 +391,14 @@
         "date": "2026-04-27T12:25:48+00:00",
         "url": "https://news.ycombinator.com/item?id=47920688",
         "summary": "HN discussion. 1 points, 0 comments."
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.97.0",
+        "date": "2026-04-23T20:51:59Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+        "summary": "fix errors in api spec ("
       }
     ]
   }
