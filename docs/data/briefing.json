@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-28T01:47:59.802500+00:00",
-  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 3 community discussions. Latest: v2.1.121.",
+  "generated": "2026-04-28T05:20:24.534806+00:00",
+  "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 4 community discussions. Latest: Tell HN: Claude flags biology / biotech questions.",
   "categories": {
     "ai_models": [
       {
@@ -281,20 +281,6 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
     "office_plugins": [
       {
         "title": "Shared context across Excel and PowerPoint add-ins",
@@ -337,6 +323,20 @@
         "date": "2025-10-01T00:00:00+00:00",
         "url": "https://marketplace.microsoft.com/en-us/product/saas/wa200009404?tab=overview",
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
+      }
+    ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "twitter": [
@@ -382,6 +382,12 @@
       }
     ],
     "community": [
+      {
+        "title": "Tell HN: Claude flags biology / biotech questions",
+        "date": "2026-04-28T02:31:41+00:00",
+        "url": "https://news.ycombinator.com/item?id=47929885",
+        "summary": "HN discussion. 4 points, 1 comments."
+      },
       {
         "title": "Show HN: I ran every Claude agent turn through the Batch API",
         "date": "2026-04-27T18:34:45+00:00",
