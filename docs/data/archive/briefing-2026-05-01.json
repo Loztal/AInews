@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T11:00:02.783391+00:00",
+  "generated": "2026-05-01T12:00:17.640499+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.126.",
   "categories": {
     "ai_models": [
@@ -339,14 +339,6 @@
         "summary": "Claude is a space to think"
       }
     ],
-    "claude_code": [
-      {
-        "title": "v2.1.126",
-        "date": "2026-05-01T03:11:36Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
-        "summary": "Added. dry-run. y/--yes. i/--interactive. all"
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -373,6 +365,14 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.126",
+        "date": "2026-05-01T03:11:36Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+        "summary": "Added. dry-run. y/--yes. i/--interactive. all"
+      }
+    ],
     "sdk_releases": [
       {
         "title": "anthropic-sdk-python v0.97.0",
@@ -386,7 +386,7 @@
         "title": "Claude Pro expired and my $40 in prepaid Extra Usage credits vanished",
         "date": "2026-04-30T12:44:51+00:00",
         "url": "https://news.ycombinator.com/item?id=47961574",
-        "summary": "HN discussion. 9 points, 3 comments."
+        "summary": "HN discussion. 10 points, 3 comments."
       },
       {
         "title": "What I changed in how I use Claude Code after Anthropic's postmortem",
