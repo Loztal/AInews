@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T19:45:17.850550+00:00",
+  "generated": "2026-05-02T20:29:47.504545+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Tell HN: Claude account suspension after flagging duplicate billing.",
   "categories": {
     "ai_models": [
@@ -339,6 +339,22 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "claude_code": [
+      {
+        "title": "v2.1.126",
+        "date": "2026-05-01T03:11:36Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+        "summary": "Added. dry-run. y/--yes. i/--interactive. all"
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.97.0",
+        "date": "2026-04-23T20:51:59Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+        "summary": "fix errors in api spec ("
+      }
+    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -371,22 +387,6 @@
         "date": "2026-05-01T16:30:53+00:00",
         "url": "https://news.ycombinator.com/item?id=47976682",
         "summary": "HN discussion. 7 points, 0 comments."
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.126",
-        "date": "2026-05-01T03:11:36Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
-        "summary": "Added. dry-run. y/--yes. i/--interactive. all"
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.97.0",
-        "date": "2026-04-23T20:51:59Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
-        "summary": "fix errors in api spec ("
       }
     ]
   }
