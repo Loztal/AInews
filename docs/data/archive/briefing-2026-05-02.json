@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T14:03:42.479265+00:00",
+  "generated": "2026-05-02T15:36:38.424700+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Tell HN: Claude account suspension after flagging duplicate billing.",
   "categories": {
     "ai_models": [
@@ -83,20 +83,6 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
       }
     ],
     "desktop": [
@@ -259,6 +245,20 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
     "anthropic_blog": [
       {
         "title": "Claude for Creative Work",
@@ -365,14 +365,6 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "community": [
-      {
-        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
-        "date": "2026-05-01T16:30:53+00:00",
-        "url": "https://news.ycombinator.com/item?id=47976682",
-        "summary": "HN discussion. 6 points, 0 comments."
-      }
-    ],
     "sdk_releases": [
       {
         "title": "anthropic-sdk-python v0.97.0",
@@ -387,6 +379,14 @@
         "date": "2026-05-01T03:11:36Z",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
         "summary": "Added. dry-run. y/--yes. i/--interactive. all"
+      }
+    ],
+    "community": [
+      {
+        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
+        "date": "2026-05-01T16:30:53+00:00",
+        "url": "https://news.ycombinator.com/item?id=47976682",
+        "summary": "HN discussion. 6 points, 0 comments."
       }
     ]
   }
