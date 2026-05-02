@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T11:36:08.439346+00:00",
+  "generated": "2026-05-02T12:42:31.733503+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: Tell HN: Claude account suspension after flagging duplicate billing.",
   "categories": {
     "ai_models": [
@@ -365,20 +365,6 @@
         "summary": "I run 5 Claudes in parallel in my terminal. I number my tabs 1-5, and use system notifications to know when a Claude needs input. I exclusively use Opus 4.5 — it's the best coding model I've ever used."
       }
     ],
-    "community": [
-      {
-        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
-        "date": "2026-05-01T16:30:53+00:00",
-        "url": "https://news.ycombinator.com/item?id=47976682",
-        "summary": "HN discussion. 5 points, 0 comments."
-      },
-      {
-        "title": "Claude Pro expired and my $40 in prepaid Extra Usage credits vanished",
-        "date": "2026-04-30T12:44:51+00:00",
-        "url": "https://news.ycombinator.com/item?id=47961574",
-        "summary": "HN discussion. 12 points, 4 comments."
-      }
-    ],
     "claude_code": [
       {
         "title": "v2.1.126",
@@ -393,6 +379,20 @@
         "date": "2026-04-23T20:51:59Z",
         "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
         "summary": "fix errors in api spec ("
+      }
+    ],
+    "community": [
+      {
+        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
+        "date": "2026-05-01T16:30:53+00:00",
+        "url": "https://news.ycombinator.com/item?id=47976682",
+        "summary": "HN discussion. 5 points, 0 comments."
+      },
+      {
+        "title": "Claude Pro expired and my $40 in prepaid Extra Usage credits vanished",
+        "date": "2026-04-30T12:44:51+00:00",
+        "url": "https://news.ycombinator.com/item?id=47961574",
+        "summary": "HN discussion. 12 points, 4 comments."
       }
     ]
   }
