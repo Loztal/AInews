@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T14:04:51.978841+00:00",
+  "generated": "2026-05-03T15:36:32.761734+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 1 community discussions. Latest: Tell HN: Claude account suspension after flagging duplicate billing.",
   "categories": {
     "ai_models": [
@@ -83,14 +83,6 @@
           "Enterprise": "Custom",
           "API": "200K"
         }
-      }
-    ],
-    "sdk_releases": [
-      {
-        "title": "anthropic-sdk-python v0.97.0",
-        "date": "2026-04-23T20:51:59Z",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
-        "summary": "fix errors in api spec ("
       }
     ],
     "office_plugins": [
@@ -387,6 +379,14 @@
         "date": "2026-05-01T16:30:53+00:00",
         "url": "https://news.ycombinator.com/item?id=47976682",
         "summary": "HN discussion. 8 points, 0 comments."
+      }
+    ],
+    "sdk_releases": [
+      {
+        "title": "anthropic-sdk-python v0.97.0",
+        "date": "2026-04-23T20:51:59Z",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+        "summary": "fix errors in api spec ("
       }
     ]
   }
