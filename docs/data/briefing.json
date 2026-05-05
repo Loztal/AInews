@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T07:10:19.235014+00:00",
+  "generated": "2026-05-05T09:50:51.746052+00:00",
   "briefing_summary": "Today's briefing: 13 blog posts, 6 model updates, 1 Claude Code releases, 19 desktop updates, 7 Office plugin updates, 2 Chrome extension updates, 4 tweets, 1 SDK releases, 2 community discussions. Latest: v2.1.128.",
   "categories": {
     "ai_models": [
@@ -129,6 +129,100 @@
         "summary": "Anthropic releases Claude for Excel as a Microsoft Office add-in. Initially available in beta for Max and Enterprise plans. Claude can read, understand, and modify spreadsheets directly from a sidebar panel."
       }
     ],
+    "chrome_extension": [
+      {
+        "title": "Claude for Chrome now in beta for all paid plans",
+        "date": "2025-12-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
+      },
+      {
+        "title": "Piloting Claude in Chrome — Research preview",
+        "date": "2025-08-01T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-chrome",
+        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
+      }
+    ],
+    "anthropic_blog": [
+      {
+        "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+        "date": "2026-05-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
+        "summary": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
+      },
+      {
+        "title": "Claude for Creative Work",
+        "date": "2026-04-28T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-for-creative-work",
+        "summary": "Claude for Creative Work"
+      },
+      {
+        "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
+        "date": "2026-04-27T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
+        "summary": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office"
+      },
+      {
+        "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
+        "date": "2026-04-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-nec",
+        "summary": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce"
+      },
+      {
+        "title": "An update on our election safeguards",
+        "date": "2026-04-24T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/election-safeguards-update",
+        "summary": "An update on our election safeguards"
+      },
+      {
+        "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
+        "date": "2026-04-20T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+        "summary": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
+      },
+      {
+        "title": "Introducing Claude Design by Anthropic Labs",
+        "date": "2026-04-17T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+        "summary": "Introducing Claude Design by Anthropic Labs"
+      },
+      {
+        "title": "Introducing Claude Opus 4.7",
+        "date": "2026-04-16T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "summary": "Introducing Claude Opus 4.7"
+      },
+      {
+        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
+        "date": "2026-04-14T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/narasimhan-board",
+        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
+      },
+      {
+        "title": "Project Glasswing",
+        "date": "2026-04-07T00:00:00+00:00",
+        "url": "https://www.anthropic.com/glasswing",
+        "summary": "Project Glasswing"
+      },
+      {
+        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
+        "date": "2026-04-06T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
+        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
+      },
+      {
+        "title": "What 81,000 people want from AI",
+        "date": "2026-03-18T00:00:00+00:00",
+        "url": "https://www.anthropic.com/81k-interviews",
+        "summary": "What 81,000 people want from AI"
+      },
+      {
+        "title": "Claude is a space to think",
+        "date": "2026-02-04T00:00:00+00:00",
+        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+        "summary": "Claude is a space to think"
+      }
+    ],
     "desktop": [
       {
         "title": "Claude Cowork generally available",
@@ -245,108 +339,6 @@
         "summary": "Claude Desktop is now available on Windows (MSIX installer) alongside the existing macOS app. Features include inline visualizations, drag-and-drop file support, and org-level update control for staged deployment."
       }
     ],
-    "anthropic_blog": [
-      {
-        "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
-        "date": "2026-05-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
-        "summary": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs"
-      },
-      {
-        "title": "Claude for Creative Work",
-        "date": "2026-04-28T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-creative-work",
-        "summary": "Claude for Creative Work"
-      },
-      {
-        "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
-        "date": "2026-04-27T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
-        "summary": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office"
-      },
-      {
-        "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
-        "date": "2026-04-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/anthropic-nec",
-        "summary": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce"
-      },
-      {
-        "title": "An update on our election safeguards",
-        "date": "2026-04-24T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/election-safeguards-update",
-        "summary": "An update on our election safeguards"
-      },
-      {
-        "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
-        "date": "2026-04-20T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-        "summary": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute"
-      },
-      {
-        "title": "Introducing Claude Design by Anthropic Labs",
-        "date": "2026-04-17T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "summary": "Introducing Claude Design by Anthropic Labs"
-      },
-      {
-        "title": "Introducing Claude Opus 4.7",
-        "date": "2026-04-16T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "summary": "Introducing Claude Opus 4.7"
-      },
-      {
-        "title": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors",
-        "date": "2026-04-14T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/narasimhan-board",
-        "summary": "Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors"
-      },
-      {
-        "title": "Project Glasswing",
-        "date": "2026-04-07T00:00:00+00:00",
-        "url": "https://www.anthropic.com/glasswing",
-        "summary": "Project Glasswing"
-      },
-      {
-        "title": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute",
-        "date": "2026-04-06T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
-        "summary": "Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute"
-      },
-      {
-        "title": "What 81,000 people want from AI",
-        "date": "2026-03-18T00:00:00+00:00",
-        "url": "https://www.anthropic.com/81k-interviews",
-        "summary": "What 81,000 people want from AI"
-      },
-      {
-        "title": "Claude is a space to think",
-        "date": "2026-02-04T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-is-a-space-to-think",
-        "summary": "Claude is a space to think"
-      }
-    ],
-    "claude_code": [
-      {
-        "title": "v2.1.128",
-        "date": "2026-05-04T23:01:47Z",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
-        "summary": "plugin-dir. channels"
-      }
-    ],
-    "chrome_extension": [
-      {
-        "title": "Claude for Chrome now in beta for all paid plans",
-        "date": "2025-12-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Claude in Chrome is now available to all Pro, Max, Team, and Enterprise users. Features include scheduled tasks, workflow recording, multi-tab browsing, and Claude Code integration."
-      },
-      {
-        "title": "Piloting Claude in Chrome — Research preview",
-        "date": "2025-08-01T00:00:00+00:00",
-        "url": "https://www.anthropic.com/news/claude-for-chrome",
-        "summary": "Anthropic launches Claude in Chrome as a research preview with 1,000 testers. The browser extension lets Claude read, click, and navigate websites alongside you."
-      }
-    ],
     "twitter": [
       {
         "title": "New in Claude Code: Code Review — a team of agents runs a deep review on every PR",
@@ -393,6 +385,14 @@
         "date": "2026-03-12T00:00:00+00:00",
         "url": "https://www.reddit.com/r/ClaudeAI/comments/example",
         "summary": "Reddit discussion about Claude's new shared context feature for Excel and PowerPoint."
+      }
+    ],
+    "claude_code": [
+      {
+        "title": "v2.1.128",
+        "date": "2026-05-04T23:01:47Z",
+        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+        "summary": "plugin-dir. channels"
       }
     ]
   }
